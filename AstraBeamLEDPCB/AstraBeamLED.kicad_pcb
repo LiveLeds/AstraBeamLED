@@ -26,7 +26,7 @@
 		(39 "F.Mask" user)
 		(40 "Dwgs.User" user "User.Drawings")
 		(41 "Cmts.User" user "User.Comments")
-		(42 "Eco1.User" user "User.Eco1")
+		(42 "Eco1.User" user "Heat-sink")
 		(43 "Eco2.User" user "User.Eco2")
 		(44 "Edge.Cuts" user)
 		(45 "Margin" user)
