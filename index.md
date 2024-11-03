@@ -5,13 +5,13 @@ layout: home
 {% assign cacheBust = site.time | date:'?v=%s' %}
 ![Image]({{ "/images/AstraBeamLED-3D_blender_top_angled.png" | relative_url | append: cacheBust }}){: width="400" }
 
-ESP32-based control PCB uses WiFi with an external antenna and 5Mbps RS-485
-for communication, supporting various sensors and HMI devices for high-power 
-LED fixtures or strips. One device can act as master or all fixtures will receive 
-data from a dedicated receiver.
+OSRAM OSTAR® Stage Light PCB
+LE RTDUW S2WN
+
+High Power 40W RGBCY LED PCB with direct heatsink copper base.
 
 
-[![CI](https://github.com/alexanderp4580/astra-control-pcb/actions/workflows/ci.yml/badge.svg)](https://github.com/alexanderp4580/astra-control-pcb/actions/workflows/ci.yml)
+[![CI](https://github.com/LiveLeds/AstraBeamLED/actions/workflows/ci.yml/badge.svg)](https://github.com/LiveLeds/AstraBeamLED/actions/workflows/ci.yml)
 ## Table of contents
 
 - [Table of contents](#table-of-contents)
