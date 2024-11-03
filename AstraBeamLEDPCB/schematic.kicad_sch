@@ -11,30 +11,30 @@
 		(company "LiveAstra Technologies")
 	)
 	(lib_symbols
-		(symbol "Connector:Conn_01x01_Pin"
-			(pin_names
-				(offset 1.016) hide)
+		(symbol "Graphic:SYM_ESD_Small"
 			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
+			(in_bom no)
+			(on_board no)
+			(property "Reference" "#SYM"
+				(at 0 3.556 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
-			(property "Value" "Conn_01x01_Pin"
-				(at 0 -2.54 0)
+			(property "Value" "SYM_ESD_Small"
+				(at 0 -3.175 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Footprint" ""
-				(at 0 0 0)
+				(at 0 0.254 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -43,6 +43,15 @@
 				)
 			)
 			(property "Datasheet" "~"
+				(at 0 0.254 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "ESD warning/\"Do not touch\" symbol, small"
 				(at 0 0 0)
 				(effects
 					(font
@@ -51,7 +60,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x01, script generated"
+			(property "Sim.Enable" "0"
 				(at 0 0 0)
 				(effects
 					(font
@@ -60,15 +69,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
+			(property "ki_keywords" "symbol ESD"
 				(at 0 0 0)
 				(effects
 					(font
@@ -77,22 +78,173 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x01_Pin_1_1"
+			(symbol "SYM_ESD_Small_0_0"
 				(polyline
 					(pts
-						(xy 1.27 0) (xy 0.8636 0)
+						(xy -1.27 0.381) (xy 2.159 -1.016)
 					)
 					(stroke
-						(width 0.1524)
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.667 -1.905) (xy 2.794 -1.905) (xy 0 2.54) (xy -2.667 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.7432 -1.905) (xy 2.7178 -1.8796) (xy 2.6162 -1.6764) (xy 2.5654 -1.6002) (xy 2.4892 -1.4986)
+						(xy 2.4384 -1.3716) (xy 1.7526 -0.2286) (xy 1.7018 -0.127) (xy 1.6256 -0.0508) (xy 1.6002 0.0508)
+						(xy 1.5494 0.1016) (xy 1.4986 0.2032) (xy 1.4732 0.2286) (xy 1.4732 0.2032) (xy 1.4478 0.2032)
+						(xy 1.3208 0.0762) (xy 1.2954 0.0254) (xy 1.2954 -0.0254) (xy 1.27 -0.0762) (xy 1.2446 -0.1524)
+						(xy 1.143 -0.254) (xy 1.0922 -0.3302) (xy 1.0414 -0.3556) (xy 0.9144 -0.4826) (xy 0.762 -0.5842)
+						(xy 0.6604 -0.6604) (xy 0.508 -0.762) (xy 0.4572 -0.8128) (xy 0.3556 -0.8636) (xy 0.3048 -0.9144)
+						(xy 0.2286 -0.9652) (xy 0.0762 -1.1938) (xy 0.0254 -1.2954) (xy -0.0254 -1.4224) (xy -0.0508 -1.4986)
+						(xy -0.1016 -1.5748) (xy -0.127 -1.651) (xy -0.1778 -1.6764) (xy -0.2032 -1.7272) (xy -0.254 -1.7526)
+						(xy -0.4064 -1.7526) (xy -0.4064 -1.7272) (xy -0.4572 -1.7018) (xy -0.4826 -1.6256) (xy -0.508 -1.524)
+						(xy -0.508 -1.0922) (xy -0.4572 -0.889) (xy -0.4064 -0.8128) (xy -0.254 -0.6604) (xy -0.2032 -0.5842)
+						(xy -0.127 -0.5334) (xy -0.1016 -0.4826) (xy -0.0762 -0.4064) (xy -0.0508 -0.3556) (xy -0.0254 -0.3302)
+						(xy -0.0254 -0.2794) (xy 0 -0.2286) (xy -0.0762 -0.1524) (xy -0.127 -0.127) (xy -0.1524 -0.0762)
+						(xy -0.2032 -0.0508) (xy -0.2286 -0.0254) (xy -0.254 -0.0254) (xy -0.3048 -0.0762) (xy -0.3556 -0.1016)
+						(xy -0.4318 -0.127) (xy -0.4826 -0.1524) (xy -0.5588 -0.2286) (xy -0.6096 -0.254) (xy -0.8382 -0.4826)
+						(xy -0.8128 -0.5588) (xy -0.7874 -0.5842) (xy -0.7874 -0.8636) (xy -0.8128 -0.889) (xy -0.8128 -0.9652)
+						(xy -0.762 -1.016) (xy -0.762 -1.0414) (xy -0.6604 -1.2954) (xy -0.6604 -1.5748) (xy -0.6858 -1.6002)
+						(xy -0.6858 -1.6256) (xy -0.7366 -1.7018) (xy -0.8382 -1.7526) (xy -0.9144 -1.7526) (xy -0.9398 -1.7272)
+						(xy -0.9652 -1.6764) (xy -1.016 -1.6002) (xy -1.0414 -1.524) (xy -1.143 -1.27) (xy -1.2192 -1.0414)
+						(xy -1.27 -0.9652) (xy -1.2954 -0.889) (xy -1.3208 -0.8382) (xy -1.3208 -0.8128) (xy -1.3716 -0.7112)
+						(xy -1.397 -0.5842) (xy -1.397 -0.4826) (xy -1.3716 -0.381) (xy -1.3208 -0.254) (xy -1.2954 -0.2032)
+						(xy -1.1938 -0.0508) (xy -1.0414 0.1524) (xy -0.9906 0.2032) (xy -0.9652 0.254) (xy -0.9144 0.3302)
+						(xy -0.889 0.381) (xy -0.8636 0.381) (xy -0.8128 0.508) (xy -0.6096 0.7112) (xy -0.5334 0.7366)
+						(xy -0.508 0.762) (xy -0.4318 0.762) (xy -0.3556 0.7874) (xy -0.2286 0.8128) (xy -0.1016 0.8128)
+						(xy 0.0508 0.8382) (xy 0.2032 0.8382) (xy 0.3048 0.8636) (xy 0.4826 0.8636) (xy 0.5334 0.889)
+						(xy 0.5842 0.889) (xy 0.6858 0.9398) (xy 0.7112 0.9652) (xy 0.762 0.9906) (xy 0.8128 1.0414) (xy 0.8636 1.0668)
+						(xy 0.889 1.1176) (xy 0.9144 1.143) (xy 0.9144 1.1938) (xy 0.889 1.2192) (xy 0.8636 1.27) (xy 0.8128 1.3462)
+						(xy 0.7112 1.5494) (xy 0.635 1.651) (xy 0.5842 1.7526) (xy 0.508 1.8796) (xy 0.4572 1.9558) (xy 0.381 2.0828)
+						(xy 0.3048 2.1844) (xy 0.254 2.286) (xy 0.2032 2.3622) (xy 0.1778 2.4384) (xy 0.1016 2.5146) (xy 0.1016 2.54)
+						(xy 0.0762 2.5654) (xy 0.0762 2.5908) (xy 0.0254 2.5908) (xy 0.0254 2.5654) (xy -0.0254 2.5146)
+						(xy -0.1016 2.3622) (xy -0.254 2.1336) (xy -0.3048 2.032) (xy -0.4572 1.778) (xy -0.5588 1.6256)
+						(xy -0.762 1.27) (xy -0.889 1.0668) (xy -1.016 0.8382) (xy -1.1684 0.6096) (xy -1.3208 0.3302)
+						(xy -1.397 0.2032) (xy -1.524 -0.0254) (xy -1.778 -0.4318) (xy -1.8796 -0.635) (xy -2.0066 -0.8128)
+						(xy -2.1082 -0.9906) (xy -2.2098 -1.143) (xy -2.286 -1.2954) (xy -2.4384 -1.5494) (xy -2.4892 -1.651)
+						(xy -2.5654 -1.7526) (xy -2.5908 -1.8288) (xy -2.6162 -1.8796) (xy -2.6416 -1.905) (xy -2.6416 -1.9304)
+						(xy 2.7432 -1.9304) (xy 2.7432 -1.905)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+		)
+		(symbol "LiveAstra:CN_FASTON_250__41290_U"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "CN"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "250 FASTON"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(bold yes)
+					)
+				)
+			)
+			(property "Footprint" "LiveAstra:CN_FASTON_250__41290_U"
+				(at -1.27 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.te.com/en/product-41290.html"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ".250 SERIES FASTON TAB U SHAPE"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "41290"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFN" "TE Connectivity"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Extra Values" "U Shape"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+						(bold yes)
+					)
+				)
+			)
+			(symbol "CN_FASTON_250__41290_U_1_1"
+				(rectangle
+					(start -1.524 0.254)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.524 1.27)
+					(end -1.27 0)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -100,10 +252,10 @@
 					)
 				)
 				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
+					(start -1.524 1.27)
+					(end 0 1.016)
 					(stroke
-						(width 0.1524)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -111,9 +263,9 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_1"
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -130,12 +282,12 @@
 				)
 			)
 		)
-		(symbol "EASYEDA2KICAD:LED_RGBA_3A_LERTDCYS2WN"
+		(symbol "LiveAstra:LED_RGBA_3A_LERTDCYS2WN"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 0 24.13 0)
+			(property "Reference" "D"
+				(at 0 25.4 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -143,7 +295,7 @@
 				)
 			)
 			(property "Value" "LERTDCYS2WN"
-				(at 0 20.32 0)
+				(at 0 22.86 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -151,7 +303,7 @@
 					)
 				)
 			)
-			(property "Footprint" "easyeda2kicad:LED-ARRAY-SMD_8P-L5.8-W4.7-TL"
+			(property "Footprint" "LiveAstra:LED_LERTDCYS2WN"
 				(at 0 -46.99 0)
 				(effects
 					(font
@@ -169,7 +321,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Compact lightsource in multi chip SMT technology with glass window on top."
+			(property "Description" "1A Red,Blue,Yellow,Emerald SMD,5.8x4.7mm LED Indication - Discrete ROHS"
 				(at 0 -43.18 0)
 				(effects
 					(font
@@ -187,13 +339,31 @@
 					(hide yes)
 				)
 			)
-			(property "Extra Value" "RGBA"
-				(at 0 -31.75 0)
+			(property "MPN" "LERTDCYS2WN-KBLA-1+MANA-P+AXAZ-3+LBMB-YS"
+				(at 0 -50.8 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(hide yes)
+				)
+			)
+			(property "MFN" "OSRAM Opto Semicon"
+				(at 0 -54.61 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Extra Value" "40W RGBCY LED"
+				(at 0 20.32 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+						(bold yes)
+					)
 				)
 			)
 			(symbol "LED_RGBA_3A_LERTDCYS2WN_0_1"
@@ -750,12 +920,23 @@
 				)
 			)
 		)
-		(symbol "Graphic:SYM_ESD_Small"
-			(exclude_from_sim no)
+		(symbol "LiveAstra:MountingHole_Pad"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim yes)
 			(in_bom no)
-			(on_board no)
-			(property "Reference" "#SYM"
-				(at 0 3.556 0)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -763,17 +944,8 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "SYM_ESD_Small"
-				(at 0 -3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0.254 0)
+			(property "Footprint" "MountingHole:MountingHole_5.3mm_M5_DIN965_Pad"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -782,7 +954,7 @@
 				)
 			)
 			(property "Datasheet" "~"
-				(at 0 0.254 0)
+				(at 0 -8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -790,7 +962,25 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "ESD warning/\"Do not touch\" symbol, small"
+			(property "Description" "Mounting Hole with connection"
+				(at 0 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Extra Values" "Mouting Hole"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+						(bold yes)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
 				(at 0 0 0)
 				(effects
 					(font
@@ -799,7 +989,7 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Enable" "0"
+			(property "ki_fp_filters" "MountingHole*Pad*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -808,84 +998,36 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "symbol ESD"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SYM_ESD_Small_0_0"
-				(polyline
-					(pts
-						(xy -1.27 0.381) (xy 2.159 -1.016)
-					)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
 					(stroke
-						(width 0.254)
+						(width 1.27)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -2.667 -1.905) (xy 2.794 -1.905) (xy 0 2.54) (xy -2.667 -1.905)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.7432 -1.905) (xy 2.7178 -1.8796) (xy 2.6162 -1.6764) (xy 2.5654 -1.6002) (xy 2.4892 -1.4986)
-						(xy 2.4384 -1.3716) (xy 1.7526 -0.2286) (xy 1.7018 -0.127) (xy 1.6256 -0.0508) (xy 1.6002 0.0508)
-						(xy 1.5494 0.1016) (xy 1.4986 0.2032) (xy 1.4732 0.2286) (xy 1.4732 0.2032) (xy 1.4478 0.2032)
-						(xy 1.3208 0.0762) (xy 1.2954 0.0254) (xy 1.2954 -0.0254) (xy 1.27 -0.0762) (xy 1.2446 -0.1524)
-						(xy 1.143 -0.254) (xy 1.0922 -0.3302) (xy 1.0414 -0.3556) (xy 0.9144 -0.4826) (xy 0.762 -0.5842)
-						(xy 0.6604 -0.6604) (xy 0.508 -0.762) (xy 0.4572 -0.8128) (xy 0.3556 -0.8636) (xy 0.3048 -0.9144)
-						(xy 0.2286 -0.9652) (xy 0.0762 -1.1938) (xy 0.0254 -1.2954) (xy -0.0254 -1.4224) (xy -0.0508 -1.4986)
-						(xy -0.1016 -1.5748) (xy -0.127 -1.651) (xy -0.1778 -1.6764) (xy -0.2032 -1.7272) (xy -0.254 -1.7526)
-						(xy -0.4064 -1.7526) (xy -0.4064 -1.7272) (xy -0.4572 -1.7018) (xy -0.4826 -1.6256) (xy -0.508 -1.524)
-						(xy -0.508 -1.0922) (xy -0.4572 -0.889) (xy -0.4064 -0.8128) (xy -0.254 -0.6604) (xy -0.2032 -0.5842)
-						(xy -0.127 -0.5334) (xy -0.1016 -0.4826) (xy -0.0762 -0.4064) (xy -0.0508 -0.3556) (xy -0.0254 -0.3302)
-						(xy -0.0254 -0.2794) (xy 0 -0.2286) (xy -0.0762 -0.1524) (xy -0.127 -0.127) (xy -0.1524 -0.0762)
-						(xy -0.2032 -0.0508) (xy -0.2286 -0.0254) (xy -0.254 -0.0254) (xy -0.3048 -0.0762) (xy -0.3556 -0.1016)
-						(xy -0.4318 -0.127) (xy -0.4826 -0.1524) (xy -0.5588 -0.2286) (xy -0.6096 -0.254) (xy -0.8382 -0.4826)
-						(xy -0.8128 -0.5588) (xy -0.7874 -0.5842) (xy -0.7874 -0.8636) (xy -0.8128 -0.889) (xy -0.8128 -0.9652)
-						(xy -0.762 -1.016) (xy -0.762 -1.0414) (xy -0.6604 -1.2954) (xy -0.6604 -1.5748) (xy -0.6858 -1.6002)
-						(xy -0.6858 -1.6256) (xy -0.7366 -1.7018) (xy -0.8382 -1.7526) (xy -0.9144 -1.7526) (xy -0.9398 -1.7272)
-						(xy -0.9652 -1.6764) (xy -1.016 -1.6002) (xy -1.0414 -1.524) (xy -1.143 -1.27) (xy -1.2192 -1.0414)
-						(xy -1.27 -0.9652) (xy -1.2954 -0.889) (xy -1.3208 -0.8382) (xy -1.3208 -0.8128) (xy -1.3716 -0.7112)
-						(xy -1.397 -0.5842) (xy -1.397 -0.4826) (xy -1.3716 -0.381) (xy -1.3208 -0.254) (xy -1.2954 -0.2032)
-						(xy -1.1938 -0.0508) (xy -1.0414 0.1524) (xy -0.9906 0.2032) (xy -0.9652 0.254) (xy -0.9144 0.3302)
-						(xy -0.889 0.381) (xy -0.8636 0.381) (xy -0.8128 0.508) (xy -0.6096 0.7112) (xy -0.5334 0.7366)
-						(xy -0.508 0.762) (xy -0.4318 0.762) (xy -0.3556 0.7874) (xy -0.2286 0.8128) (xy -0.1016 0.8128)
-						(xy 0.0508 0.8382) (xy 0.2032 0.8382) (xy 0.3048 0.8636) (xy 0.4826 0.8636) (xy 0.5334 0.889)
-						(xy 0.5842 0.889) (xy 0.6858 0.9398) (xy 0.7112 0.9652) (xy 0.762 0.9906) (xy 0.8128 1.0414) (xy 0.8636 1.0668)
-						(xy 0.889 1.1176) (xy 0.9144 1.143) (xy 0.9144 1.1938) (xy 0.889 1.2192) (xy 0.8636 1.27) (xy 0.8128 1.3462)
-						(xy 0.7112 1.5494) (xy 0.635 1.651) (xy 0.5842 1.7526) (xy 0.508 1.8796) (xy 0.4572 1.9558) (xy 0.381 2.0828)
-						(xy 0.3048 2.1844) (xy 0.254 2.286) (xy 0.2032 2.3622) (xy 0.1778 2.4384) (xy 0.1016 2.5146) (xy 0.1016 2.54)
-						(xy 0.0762 2.5654) (xy 0.0762 2.5908) (xy 0.0254 2.5908) (xy 0.0254 2.5654) (xy -0.0254 2.5146)
-						(xy -0.1016 2.3622) (xy -0.254 2.1336) (xy -0.3048 2.032) (xy -0.4572 1.778) (xy -0.5588 1.6256)
-						(xy -0.762 1.27) (xy -0.889 1.0668) (xy -1.016 0.8382) (xy -1.1684 0.6096) (xy -1.3208 0.3302)
-						(xy -1.397 0.2032) (xy -1.524 -0.0254) (xy -1.778 -0.4318) (xy -1.8796 -0.635) (xy -2.0066 -0.8128)
-						(xy -2.1082 -0.9906) (xy -2.2098 -1.143) (xy -2.286 -1.2954) (xy -2.4384 -1.5494) (xy -2.4892 -1.651)
-						(xy -2.5654 -1.7526) (xy -2.5908 -1.8288) (xy -2.6162 -1.8796) (xy -2.6416 -1.905) (xy -2.6416 -1.9304)
-						(xy 2.7432 -1.9304) (xy 2.7432 -1.905)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type background)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -989,7 +1131,77 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 110.49) (xy 129.54 113.03)
+			(xy 127 106.68) (xy 127 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04b8edda-21f1-4252-8c53-bcb8ac4b2306")
+	)
+	(wire
+		(pts
+			(xy 177.8 106.68) (xy 177.8 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b42e5eb-1997-4d20-ad80-eaa460dc6f4c")
+	)
+	(wire
+		(pts
+			(xy 127 86.36) (xy 127 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c1c0c8f-d816-4532-b7d3-e574e59a8e3f")
+	)
+	(wire
+		(pts
+			(xy 127 99.06) (xy 127 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11292e0d-7327-4b1e-a8e9-e761f4245260")
+	)
+	(wire
+		(pts
+			(xy 127 73.66) (xy 127 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13374d60-0512-4254-a3fb-8f774da87602")
+	)
+	(wire
+		(pts
+			(xy 127 99.06) (xy 142.24 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "198ba8f5-0337-40c1-b671-21c31fdb56f7")
+	)
+	(wire
+		(pts
+			(xy 177.8 86.36) (xy 177.8 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ce64623-4ceb-4153-af4e-b78b2abe2bf2")
+	)
+	(wire
+		(pts
+			(xy 152.4 118.11) (xy 152.4 120.65)
 		)
 		(stroke
 			(width 0)
@@ -999,27 +1211,27 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 91.44) (xy 119.38 91.44)
+			(xy 104.14 116.84) (xy 127 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2aeb506a-b903-4350-80d0-20da949b9a8e")
+		(uuid "310c9cb0-b706-4323-a647-084e086f28f3")
 	)
 	(wire
 		(pts
-			(xy 111.76 99.06) (xy 119.38 99.06)
+			(xy 177.8 116.84) (xy 200.66 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "446cd0d5-6a32-497a-a0c0-ee547e063e47")
+		(uuid "3316ade9-ecfe-42eb-87b5-ff303314e59b")
 	)
 	(wire
 		(pts
-			(xy 139.7 83.82) (xy 147.32 83.82)
+			(xy 162.56 91.44) (xy 177.8 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1029,27 +1241,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 83.82) (xy 119.38 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5609763b-28b7-403b-8413-3f178877f711")
-	)
-	(wire
-		(pts
-			(xy 111.76 76.2) (xy 119.38 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6021566d-f769-44c6-a946-e91b45e69bb0")
-	)
-	(wire
-		(pts
-			(xy 139.7 91.44) (xy 147.32 91.44)
+			(xy 162.56 99.06) (xy 177.8 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1059,7 +1251,67 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 99.06) (xy 147.32 99.06)
+			(xy 177.8 73.66) (xy 200.66 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87140e2d-b472-4717-bd53-42be7ccacb95")
+	)
+	(wire
+		(pts
+			(xy 177.8 86.36) (xy 200.66 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3078017-99b1-4f54-8dfb-67fa8a8776bc")
+	)
+	(wire
+		(pts
+			(xy 127 83.82) (xy 142.24 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4b6ef35-9cb9-4843-987a-1beef7938134")
+	)
+	(wire
+		(pts
+			(xy 104.14 73.66) (xy 127 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa27c0aa-cac2-4eee-9f50-62b7bc1d6533")
+	)
+	(wire
+		(pts
+			(xy 127 91.44) (xy 142.24 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ade154c7-239f-4b46-923c-a73d92616ea3")
+	)
+	(wire
+		(pts
+			(xy 127 106.68) (xy 142.24 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b79ba33c-0cde-48d9-921e-1ae07d508716")
+	)
+	(wire
+		(pts
+			(xy 162.56 106.68) (xy 177.8 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1069,7 +1321,37 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 76.2) (xy 147.32 76.2)
+			(xy 177.8 73.66) (xy 177.8 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c79b520b-9bb0-468e-9b9b-9b010dd9931d")
+	)
+	(wire
+		(pts
+			(xy 104.14 104.14) (xy 127 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c900a05f-78a8-48f6-85af-772113c0b111")
+	)
+	(wire
+		(pts
+			(xy 104.14 86.36) (xy 127 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e331bb95-24ab-4266-b5eb-e6937ea8a3e6")
+	)
+	(wire
+		(pts
+			(xy 162.56 83.82) (xy 177.8 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1077,8 +1359,28 @@
 		)
 		(uuid "e4f997cc-0d2c-4785-a8c0-9e182665f4b9")
 	)
+	(wire
+		(pts
+			(xy 177.8 99.06) (xy 177.8 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb1b07c0-5c66-4e41-ab81-f2518069dd4e")
+	)
+	(wire
+		(pts
+			(xy 177.8 104.14) (xy 200.66 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8b1f0ad-c84d-407f-94a3-ee8e639f7d8f")
+	)
 	(label "GREEN-"
-		(at 139.7 91.44 0)
+		(at 162.56 99.06 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1089,7 +1391,7 @@
 		(uuid "27ca6269-4ed5-4efd-8a32-46b374aacf1e")
 	)
 	(label "RED+"
-		(at 111.76 76.2 0)
+		(at 134.62 83.82 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1100,7 +1402,7 @@
 		(uuid "50db4563-ff71-4f6c-b862-cdebfa5079b5")
 	)
 	(label "CY+"
-		(at 111.76 99.06 0)
+		(at 134.62 106.68 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1111,7 +1413,7 @@
 		(uuid "7cec566c-e6cd-4d18-983f-c6810671ea64")
 	)
 	(label "BLUE+"
-		(at 111.76 83.82 0)
+		(at 134.62 91.44 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1122,7 +1424,7 @@
 		(uuid "7d734e10-2fd4-4770-b9d5-099f89859ca1")
 	)
 	(label "BLUE-"
-		(at 139.7 83.82 0)
+		(at 162.56 91.44 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1133,7 +1435,7 @@
 		(uuid "986d15d0-ec3d-426a-a4e1-a1543afa6ba5")
 	)
 	(label "CY-"
-		(at 139.7 99.06 0)
+		(at 162.56 106.68 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1144,7 +1446,7 @@
 		(uuid "a65c800d-4aaf-4b40-9f26-7288c6df2f06")
 	)
 	(label "RED-"
-		(at 139.7 76.2 0)
+		(at 162.56 83.82 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1155,7 +1457,7 @@
 		(uuid "c75a3d3e-3b27-4c5f-b94f-fed5707054a9")
 	)
 	(label "GREEN+"
-		(at 111.76 91.44 0)
+		(at 134.62 99.06 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1167,7 +1469,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 129.54 113.03 0)
+		(at 152.4 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1176,7 +1478,7 @@
 		(fields_autoplaced yes)
 		(uuid "00e8cbdd-a925-46e3-94f5-126e0456668b")
 		(property "Reference" "#PWR01"
-			(at 129.54 119.38 0)
+			(at 152.4 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1185,7 +1487,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 129.54 118.11 0)
+			(at 152.4 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1193,7 +1495,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 113.03 0)
+			(at 152.4 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1202,7 +1504,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 113.03 0)
+			(at 152.4 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1211,7 +1513,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 129.54 113.03 0)
+			(at 152.4 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1232,24 +1534,26 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 152.4 83.82 180)
+		(lib_id "LiveAstra:MountingHole_Pad")
+		(at 73.66 53.34 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(uuid "01886d3f-543b-4882-a0c9-349c936516fa")
-		(property "Reference" "J6"
-			(at 152.4 81.28 0)
+		(fields_autoplaced yes)
+		(uuid "1f00b999-28b3-4df1-bcbc-811e2dd5caa1")
+		(property "Reference" "H1"
+			(at 76.2 50.7999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x01_Pin"
-			(at 151.765 81.28 0)
+		(property "Value" "MountingHole_Pad"
+			(at 73.66 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1257,8 +1561,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm"
-			(at 152.4 83.82 0)
+		(property "Footprint" "MountingHole:MountingHole_5.3mm_M5_DIN965_Pad"
+			(at 73.66 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1267,7 +1571,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 152.4 83.82 0)
+			(at 73.66 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1275,46 +1579,68 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 152.4 83.82 0)
+		(property "Description" "Mounting Hole with connection"
+			(at 73.66 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Extra Values" "Mouting Hole"
+			(at 76.2 53.3399 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(bold yes)
+				)
+				(justify left)
 			)
 		)
 		(pin "1"
-			(uuid "a7e17d48-40fb-4567-8e72-1db1ef93a5cc")
+			(uuid "a3d414df-694b-441a-9d22-4d519ea7defb")
 		)
 		(instances
-			(project "AstraBeamLED"
+			(project ""
 				(path "/86edf83e-a446-464c-ad90-f8d1498e5ef3/751258a0-9fa5-45c2-9781-47b681192240"
-					(reference "J6")
+					(reference "H1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 152.4 99.06 180)
+		(lib_id "LiveAstra:CN_FASTON_250__41290_U")
+		(at 203.2 86.36 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "2f3490f9-e305-4e56-91cb-b33b7941de82")
-		(property "Reference" "J8"
-			(at 152.4 96.52 0)
+		(fields_autoplaced yes)
+		(uuid "22173ba3-07be-4059-8be4-df07bf3ecb87")
+		(property "Reference" "CN6"
+			(at 205.74 84.4549 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "Conn_01x01_Pin"
-			(at 151.765 96.52 0)
+		(property "Value" "250 FASTON"
+			(at 205.74 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LiveAstra:CN_FASTON_250__41290_U"
+			(at 204.47 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1322,8 +1648,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm"
-			(at 152.4 99.06 0)
+		(property "Datasheet" "https://www.te.com/en/product-41290.html"
+			(at 203.2 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1331,8 +1657,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 152.4 99.06 0)
+		(property "Description" ".250 SERIES FASTON TAB U SHAPE"
+			(at 203.2 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1340,46 +1666,77 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 152.4 99.06 0)
+		(property "MPN" "41290"
+			(at 203.2 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MFN" "TE Connectivity"
+			(at 203.2 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Extra Values" "U Shape"
+			(at 205.74 89.5349 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(bold yes)
+				)
+				(justify right)
 			)
 		)
 		(pin "1"
-			(uuid "2f432b27-42ca-475d-977d-51536b0fb050")
+			(uuid "8e2eefeb-5708-4812-a01a-a92878393c04")
 		)
 		(instances
 			(project "AstraBeamLED"
 				(path "/86edf83e-a446-464c-ad90-f8d1498e5ef3/751258a0-9fa5-45c2-9781-47b681192240"
-					(reference "J8")
+					(reference "CN6")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 106.68 83.82 0)
+		(lib_id "LiveAstra:CN_FASTON_250__41290_U")
+		(at 203.2 73.66 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "2f3ab25d-13d7-4b92-b0d6-a38c29b126f1")
-		(property "Reference" "J2"
-			(at 106.68 81.28 0)
+		(fields_autoplaced yes)
+		(uuid "2ffa9ef7-52ed-4933-830f-d3a614683096")
+		(property "Reference" "CN5"
+			(at 205.74 71.7549 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "Conn_01x01_Pin"
-			(at 107.315 86.36 0)
+		(property "Value" "250 FASTON"
+			(at 205.74 74.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LiveAstra:CN_FASTON_250__41290_U"
+			(at 204.47 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1387,8 +1744,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm"
-			(at 106.68 83.82 0)
+		(property "Datasheet" "https://www.te.com/en/product-41290.html"
+			(at 203.2 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1396,8 +1753,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 106.68 83.82 0)
+		(property "Description" ".250 SERIES FASTON TAB U SHAPE"
+			(at 203.2 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1405,46 +1762,74 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 106.68 83.82 0)
+		(property "MPN" "41290"
+			(at 203.2 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MFN" "TE Connectivity"
+			(at 203.2 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Extra Values" "U Shape"
+			(at 205.74 76.8349 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(bold yes)
+				)
+				(justify right)
 			)
 		)
 		(pin "1"
-			(uuid "22511059-0957-490a-a868-bb2f73bf577b")
+			(uuid "94310edc-3efa-4c59-ae89-c4b6074a4b54")
 		)
 		(instances
-			(project "AstraBeamLED"
+			(project ""
 				(path "/86edf83e-a446-464c-ad90-f8d1498e5ef3/751258a0-9fa5-45c2-9781-47b681192240"
-					(reference "J2")
+					(reference "CN5")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 106.68 99.06 0)
+		(lib_id "LiveAstra:CN_FASTON_250__41290_U")
+		(at 101.6 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "38de5054-f0db-4737-9073-08b9222e9944")
-		(property "Reference" "J4"
-			(at 106.68 96.52 0)
+		(fields_autoplaced yes)
+		(uuid "42487221-2918-4750-a468-81a18ee4af1c")
+		(property "Reference" "CN4"
+			(at 100.838 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Conn_01x01_Pin"
-			(at 107.315 101.6 0)
+		(property "Value" "250 FASTON"
+			(at 100.838 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LiveAstra:CN_FASTON_250__41290_U"
+			(at 100.33 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1452,8 +1837,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm"
-			(at 106.68 99.06 0)
+		(property "Datasheet" "https://www.te.com/en/product-41290.html"
+			(at 101.6 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1461,8 +1846,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 106.68 99.06 0)
+		(property "Description" ".250 SERIES FASTON TAB U SHAPE"
+			(at 101.6 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1470,46 +1855,73 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 106.68 99.06 0)
+		(property "MPN" "41290"
+			(at 101.6 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MFN" "TE Connectivity"
+			(at 101.6 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Extra Values" "U Shape"
+			(at 100.838 113.03 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(bold yes)
+				)
 			)
 		)
 		(pin "1"
-			(uuid "80f9c601-b923-499b-bb1d-5572963147a6")
+			(uuid "5a74c86c-705b-4917-ace1-54dfaa814481")
 		)
 		(instances
 			(project "AstraBeamLED"
 				(path "/86edf83e-a446-464c-ad90-f8d1498e5ef3/751258a0-9fa5-45c2-9781-47b681192240"
-					(reference "J4")
+					(reference "CN4")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 106.68 91.44 0)
+		(lib_id "LiveAstra:CN_FASTON_250__41290_U")
+		(at 101.6 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "898f8a05-485d-4a38-abd0-df7104aa437b")
-		(property "Reference" "J3"
-			(at 106.68 88.9 0)
+		(fields_autoplaced yes)
+		(uuid "6ffe99b2-d428-49a7-aa22-3eac75135c2b")
+		(property "Reference" "CN1"
+			(at 100.838 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Conn_01x01_Pin"
-			(at 107.315 93.98 0)
+		(property "Value" "250 FASTON"
+			(at 100.838 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LiveAstra:CN_FASTON_250__41290_U"
+			(at 100.33 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1517,8 +1929,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm"
-			(at 106.68 91.44 0)
+		(property "Datasheet" "https://www.te.com/en/product-41290.html"
+			(at 101.6 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1526,8 +1938,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 106.68 91.44 0)
+		(property "Description" ".250 SERIES FASTON TAB U SHAPE"
+			(at 101.6 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1535,111 +1947,290 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 106.68 91.44 0)
+		(property "MPN" "41290"
+			(at 101.6 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MFN" "TE Connectivity"
+			(at 101.6 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Extra Values" "U Shape"
+			(at 100.838 69.85 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(bold yes)
+				)
 			)
 		)
 		(pin "1"
-			(uuid "63f8ddb5-c027-4927-b541-6f8a2cef366c")
+			(uuid "d25a4534-7ecc-49e7-9aaa-0fd3024e6d7c")
 		)
 		(instances
-			(project "AstraBeamLED"
+			(project ""
 				(path "/86edf83e-a446-464c-ad90-f8d1498e5ef3/751258a0-9fa5-45c2-9781-47b681192240"
-					(reference "J3")
+					(reference "CN1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 152.4 76.2 180)
+		(lib_id "LiveAstra:CN_FASTON_250__41290_U")
+		(at 101.6 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "94595611-1aea-4a19-ab31-a63c6915908f")
-		(property "Reference" "J5"
+		(uuid "77a42b3b-0eec-45a9-9b3f-d267deddcaa8")
+		(property "Reference" "CN2"
+			(at 100.838 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "250 FASTON"
+			(at 100.838 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LiveAstra:CN_FASTON_250__41290_U"
+			(at 100.33 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.te.com/en/product-41290.html"
+			(at 101.6 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ".250 SERIES FASTON TAB U SHAPE"
+			(at 101.6 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "41290"
+			(at 101.6 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "TE Connectivity"
+			(at 101.6 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Extra Values" "U Shape"
+			(at 100.838 82.55 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(bold yes)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "63f2147f-91e3-4447-b14c-f50ca6c502e5")
+		)
+		(instances
+			(project "AstraBeamLED"
+				(path "/86edf83e-a446-464c-ad90-f8d1498e5ef3/751258a0-9fa5-45c2-9781-47b681192240"
+					(reference "CN2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LiveAstra:LED_RGBA_3A_LERTDCYS2WN")
+		(at 152.4 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9c57abc5-c2d6-4da3-9275-d01a586965bd")
+		(property "Reference" "D1"
+			(at 152.4 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LERTDCYS2WN"
+			(at 152.4 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "LiveAstra:LED_LERTDCYS2WN"
+			(at 152.4 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://look.ams-osram.com/m/5570f492f84c2084/original/LE-RTDCY-S2WN.pdf"
+			(at 152.4 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1A Red,Blue,Yellow,Emerald SMD,5.8x4.7mm LED Indication - Discrete ROHS"
+			(at 152.4 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2899869"
+			(at 152.4 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LERTDCYS2WN-KBLA-1+MANA-P+AXAZ-3+LBMB-YS"
+			(at 152.4 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "OSRAM Opto Semicon"
+			(at 152.4 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Extra Value" "40W RGBCY LED"
 			(at 152.4 73.66 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
+					(bold yes)
 				)
 			)
 		)
-		(property "Value" "Conn_01x01_Pin"
-			(at 151.765 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "5"
+			(uuid "1a1b7c54-6b23-4878-a64e-8ee316ef23b7")
 		)
-		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm"
-			(at 152.4 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "3"
+			(uuid "b74c5b43-71ff-4126-87f6-c4a8063ded78")
 		)
-		(property "Datasheet" "~"
-			(at 152.4 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "2"
+			(uuid "b1fca4fb-58f5-4ea8-847f-a5467d70174b")
 		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 152.4 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "9"
+			(uuid "fc76af62-e799-48ee-82fb-65937e0c4d8c")
 		)
 		(pin "1"
-			(uuid "cb86725e-df2f-4809-b339-965ef7b7eeac")
+			(uuid "9d3b7048-a94d-4f08-b33c-b66d2ded87b2")
+		)
+		(pin "7"
+			(uuid "8d12d7f8-21f1-40d2-b42b-d55a1950e9d6")
+		)
+		(pin "6"
+			(uuid "80255a26-6cca-49d9-8fcb-c5fdb02f2f42")
+		)
+		(pin "8"
+			(uuid "1d7eff9e-3c24-4f19-83d8-784e990e07f9")
+		)
+		(pin "4"
+			(uuid "8c951546-fd83-4f66-afd7-89221eae85b6")
 		)
 		(instances
-			(project "AstraBeamLED"
+			(project ""
 				(path "/86edf83e-a446-464c-ad90-f8d1498e5ef3/751258a0-9fa5-45c2-9781-47b681192240"
-					(reference "J5")
+					(reference "D1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 152.4 91.44 180)
+		(lib_id "LiveAstra:CN_FASTON_250__41290_U")
+		(at 101.6 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "cec8e99a-bb42-41d8-a62b-05d653051523")
-		(property "Reference" "J7"
-			(at 152.4 88.9 0)
+		(fields_autoplaced yes)
+		(uuid "dded1289-47da-4fd0-ad7c-27c8bf5ed3bc")
+		(property "Reference" "CN3"
+			(at 100.838 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Conn_01x01_Pin"
-			(at 151.765 88.9 0)
+		(property "Value" "250 FASTON"
+			(at 100.838 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LiveAstra:CN_FASTON_250__41290_U"
+			(at 100.33 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1647,8 +2238,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm"
-			(at 152.4 91.44 0)
+		(property "Datasheet" "https://www.te.com/en/product-41290.html"
+			(at 101.6 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1656,8 +2247,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 152.4 91.44 0)
+		(property "Description" ".250 SERIES FASTON TAB U SHAPE"
+			(at 101.6 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1665,87 +2256,40 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 152.4 91.44 0)
+		(property "MPN" "41290"
+			(at 101.6 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MFN" "TE Connectivity"
+			(at 101.6 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Extra Values" "U Shape"
+			(at 100.838 100.33 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(bold yes)
+				)
 			)
 		)
 		(pin "1"
-			(uuid "c926232f-b68c-4cfe-9b3b-a6efdfb7b9c4")
+			(uuid "6d2c0611-b7df-4c79-851f-50a3b075097a")
 		)
 		(instances
 			(project "AstraBeamLED"
 				(path "/86edf83e-a446-464c-ad90-f8d1498e5ef3/751258a0-9fa5-45c2-9781-47b681192240"
-					(reference "J7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 106.68 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e3abb2be-d9bc-4a5a-a854-39c4df4f5530")
-		(property "Reference" "J1"
-			(at 106.68 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x01_Pin"
-			(at 107.315 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm"
-			(at 106.68 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 106.68 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 106.68 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c42009c6-4976-4a7a-86a6-0d594120b805")
-		)
-		(instances
-			(project "AstraBeamLED"
-				(path "/86edf83e-a446-464c-ad90-f8d1498e5ef3/751258a0-9fa5-45c2-9781-47b681192240"
-					(reference "J1")
+					(reference "CN3")
 					(unit 1)
 				)
 			)
@@ -1753,7 +2297,7 @@
 	)
 	(symbol
 		(lib_id "Graphic:SYM_ESD_Small")
-		(at 129.54 127 0)
+		(at 152.4 134.62 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -1762,7 +2306,7 @@
 		(fields_autoplaced yes)
 		(uuid "e3b3aa24-17dc-4154-85ca-0243c265d50e")
 		(property "Reference" "#SYM1"
-			(at 129.54 123.444 0)
+			(at 152.4 131.064 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1771,7 +2315,7 @@
 			)
 		)
 		(property "Value" "SYM_ESD_Small"
-			(at 129.54 130.175 0)
+			(at 152.4 137.795 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1780,7 +2324,7 @@
 			)
 		)
 		(property "Footprint" "Symbol:Symbol_ESD-Logo-Text_CopperTop"
-			(at 129.54 126.746 0)
+			(at 152.4 134.366 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1789,7 +2333,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 129.54 126.746 0)
+			(at 152.4 134.366 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1798,7 +2342,7 @@
 			)
 		)
 		(property "Description" "ESD warning/\"Do not touch\" symbol, small"
-			(at 129.54 127 0)
+			(at 152.4 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1816,34 +2360,36 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:LED_RGBA_3A_LERTDCYS2WN")
-		(at 129.54 86.36 0)
+		(lib_id "LiveAstra:CN_FASTON_250__41290_U")
+		(at 203.2 116.84 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "fcc15ebe-0d3c-4dc3-9a6b-e54a4251ef3c")
-		(property "Reference" "U1"
-			(at 129.54 63.5 0)
+		(uuid "e7367b27-5628-4acf-9a96-d04411b882c4")
+		(property "Reference" "CN8"
+			(at 205.74 114.9349 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "LERTDCYS2WN"
-			(at 129.54 66.04 0)
+		(property "Value" "250 FASTON"
+			(at 205.74 117.475 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(bold yes)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "EASYEDA2KICAD:LED_LERTDCYS2WN"
-			(at 129.54 133.35 0)
+		(property "Footprint" "LiveAstra:CN_FASTON_250__41290_U"
+			(at 204.47 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1851,8 +2397,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://look.ams-osram.com/m/5570f492f84c2084/original/LE-RTDCY-S2WN.pdf"
-			(at 129.54 125.73 0)
+		(property "Datasheet" "https://www.te.com/en/product-41290.html"
+			(at 203.2 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1860,8 +2406,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Compact lightsource in multi chip SMT technology with glass window on top."
-			(at 129.54 129.54 0)
+		(property "Description" ".250 SERIES FASTON TAB U SHAPE"
+			(at 203.2 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1869,8 +2415,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C2899869"
-			(at 129.54 121.92 0)
+		(property "MPN" "41290"
+			(at 203.2 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1878,8 +2424,8 @@
 				(hide yes)
 			)
 		)
-		(property "Extra Value" "RGBA"
-			(at 129.54 118.11 0)
+		(property "MFN" "TE Connectivity"
+			(at 203.2 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1887,37 +2433,119 @@
 				(hide yes)
 			)
 		)
-		(pin "4"
-			(uuid "e98c6a23-9d6f-4185-ba92-3e16bc294ee7")
-		)
-		(pin "2"
-			(uuid "a9b028d7-b350-473a-a94a-732252cf6bed")
-		)
-		(pin "9"
-			(uuid "73de32d3-6360-4328-b772-3515fda59bb2")
-		)
-		(pin "8"
-			(uuid "5ad20d7c-9af9-42c0-a565-97bbb36240f9")
+		(property "Extra Values" "U Shape"
+			(at 205.74 120.0149 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(bold yes)
+				)
+				(justify right)
+			)
 		)
 		(pin "1"
-			(uuid "6c3d2a15-35d5-4985-a241-ced7cff6b7bc")
-		)
-		(pin "6"
-			(uuid "4b85f52f-ef82-4944-b376-4a0d02c1eb9d")
-		)
-		(pin "7"
-			(uuid "c8c1d0f5-3db8-4ddc-85f9-da2d9cdb6836")
-		)
-		(pin "5"
-			(uuid "69683599-3c7c-464a-adf0-418daf687954")
-		)
-		(pin "3"
-			(uuid "918c365b-8453-49cc-ad1e-889c3ac2b115")
+			(uuid "f83c4177-b158-4eca-876c-34298a38038f")
 		)
 		(instances
 			(project "AstraBeamLED"
 				(path "/86edf83e-a446-464c-ad90-f8d1498e5ef3/751258a0-9fa5-45c2-9781-47b681192240"
-					(reference "U1")
+					(reference "CN8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LiveAstra:CN_FASTON_250__41290_U")
+		(at 203.2 104.14 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff0271c0-3c04-414a-aec6-f285611e0ad5")
+		(property "Reference" "CN7"
+			(at 205.74 102.2349 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "250 FASTON"
+			(at 205.74 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LiveAstra:CN_FASTON_250__41290_U"
+			(at 204.47 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.te.com/en/product-41290.html"
+			(at 203.2 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ".250 SERIES FASTON TAB U SHAPE"
+			(at 203.2 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "41290"
+			(at 203.2 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "TE Connectivity"
+			(at 203.2 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Extra Values" "U Shape"
+			(at 205.74 107.3149 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(bold yes)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "bf559bdd-1056-483d-ac9e-1625846f7e75")
+		)
+		(instances
+			(project "AstraBeamLED"
+				(path "/86edf83e-a446-464c-ad90-f8d1498e5ef3/751258a0-9fa5-45c2-9781-47b681192240"
+					(reference "CN7")
 					(unit 1)
 				)
 			)

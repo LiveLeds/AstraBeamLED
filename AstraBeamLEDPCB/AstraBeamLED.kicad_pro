@@ -468,7 +468,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "LiveAstra"
+    ]
   },
   "meta": {
     "filename": "AstraBeamLED.kicad_pro",
@@ -513,7 +515,7 @@
       "svg": "build/",
       "vrml": "AstraBeamLED.wrl"
     },
-    "page_layout_descr_file": ""
+    "page_layout_descr_file": "template/template_brd.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,
