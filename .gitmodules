@@ -1,0 +1,3 @@
+[submodule "AstraBeamLEDPCB/LiveAstraLibrary"]
+	path = AstraBeamLEDPCB/LiveAstraLibrary
+	url = https://github.com/LiveLeds/LiveAstraLibrary.git

@@ -1,0 +1,1926 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "5f0bfae8-bbb1-4f4f-a86e-50c4e485d431")
+	(paper "A4")
+	(title_block
+		(title "AstraBeam LED")
+		(date "2024-11-03")
+		(rev "A")
+		(company "LiveAstra Technologies")
+	)
+	(lib_symbols
+		(symbol "Connector:Conn_01x01_Pin"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01_Pin"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x01_Pin_1_1"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "EASYEDA2KICAD:LED_RGBA_3A_LERTDCYS2WN"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 24.13 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LERTDCYS2WN"
+				(at 0 20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(bold yes)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:LED-ARRAY-SMD_8P-L5.8-W4.7-TL"
+				(at 0 -46.99 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://look.ams-osram.com/m/5570f492f84c2084/original/LE-RTDCY-S2WN.pdf"
+				(at 0 -39.37 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Compact lightsource in multi chip SMT technology with glass window on top."
+				(at 0 -43.18 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C2899869"
+				(at 0 -35.56 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Extra Value" "RGBA"
+				(at 0 -31.75 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_RGBA_3A_LERTDCYS2WN_0_1"
+				(rectangle
+					(start -6.35 17.78)
+					(end 6.35 -20.32)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 -12.7) (xy 6.35 -12.7)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 -5.08) (xy 6.35 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 2.54) (xy 6.35 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 10.16) (xy 6.35 10.16)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -11.43) (xy -2.03 -9.65)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -10.16) (xy -2.03 -8.38)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -3.81) (xy -2.03 -2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -2.54) (xy -2.03 -0.76)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -2.03 5.59)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 5.08) (xy -2.03 6.86)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 11.43) (xy -2.03 13.21)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 12.7) (xy -2.03 14.48)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -11.18) (xy -2.54 -14.22)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -3.56) (xy -2.54 -6.6)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 4.06) (xy -2.54 1.02)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 11.68) (xy -2.54 8.64)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -14.22) (xy -2.54 -12.7) (xy -5.08 -11.18) (xy -5.08 -14.22)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -6.6) (xy -2.54 -5.08) (xy -5.08 -3.56) (xy -5.08 -6.6)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 1.02) (xy -2.54 2.54) (xy -5.08 4.06) (xy -5.08 1.02)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 8.64) (xy -2.54 10.16) (xy -5.08 11.68) (xy -5.08 8.64)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.03 -9.65) (xy -3.05 -10.16) (xy -2.54 -10.67) (xy -2.03 -9.65)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.03 -8.38) (xy -3.05 -8.89) (xy -2.54 -9.4) (xy -2.03 -8.38)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.03 -2.03) (xy -3.05 -2.54) (xy -2.54 -3.05) (xy -2.03 -2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.03 -0.76) (xy -3.05 -1.27) (xy -2.54 -1.78) (xy -2.03 -0.76)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.03 5.59) (xy -3.05 5.08) (xy -2.54 4.57) (xy -2.03 5.59)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.03 6.86) (xy -3.05 6.35) (xy -2.54 5.84) (xy -2.03 6.86)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.03 13.21) (xy -3.05 12.7) (xy -2.54 12.19) (xy -2.03 13.21)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.03 14.48) (xy -3.05 13.97) (xy -2.54 13.46) (xy -2.03 14.48)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "LED_RGBA_3A_LERTDCYS2WN_1_1"
+				(text "BLUE"
+					(at -1.27 3.81 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+							(bold yes)
+						)
+						(justify left)
+					)
+				)
+				(text "CY"
+					(at -1.27 -11.43 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+							(bold yes)
+						)
+						(justify left)
+					)
+				)
+				(text "GREEN"
+					(at -1.27 -3.81 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+							(bold yes)
+						)
+						(justify left)
+					)
+				)
+				(text "RED"
+					(at -1.27 11.43 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+							(bold yes)
+						)
+						(justify left)
+					)
+				)
+				(pin passive line
+					(at 10.16 10.16 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 10.16 0)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 2.54 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 2.54 0)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -5.08 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -5.08 0)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -12.7 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -12.7 0)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -24.13 90)
+					(length 3.81)
+					(name "EP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Graphic:SYM_ESD_Small"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board no)
+			(property "Reference" "#SYM"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "SYM_ESD_Small"
+				(at 0 -3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0.254 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0.254 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "ESD warning/\"Do not touch\" symbol, small"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Enable" "0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "symbol ESD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SYM_ESD_Small_0_0"
+				(polyline
+					(pts
+						(xy -1.27 0.381) (xy 2.159 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.667 -1.905) (xy 2.794 -1.905) (xy 0 2.54) (xy -2.667 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.7432 -1.905) (xy 2.7178 -1.8796) (xy 2.6162 -1.6764) (xy 2.5654 -1.6002) (xy 2.4892 -1.4986)
+						(xy 2.4384 -1.3716) (xy 1.7526 -0.2286) (xy 1.7018 -0.127) (xy 1.6256 -0.0508) (xy 1.6002 0.0508)
+						(xy 1.5494 0.1016) (xy 1.4986 0.2032) (xy 1.4732 0.2286) (xy 1.4732 0.2032) (xy 1.4478 0.2032)
+						(xy 1.3208 0.0762) (xy 1.2954 0.0254) (xy 1.2954 -0.0254) (xy 1.27 -0.0762) (xy 1.2446 -0.1524)
+						(xy 1.143 -0.254) (xy 1.0922 -0.3302) (xy 1.0414 -0.3556) (xy 0.9144 -0.4826) (xy 0.762 -0.5842)
+						(xy 0.6604 -0.6604) (xy 0.508 -0.762) (xy 0.4572 -0.8128) (xy 0.3556 -0.8636) (xy 0.3048 -0.9144)
+						(xy 0.2286 -0.9652) (xy 0.0762 -1.1938) (xy 0.0254 -1.2954) (xy -0.0254 -1.4224) (xy -0.0508 -1.4986)
+						(xy -0.1016 -1.5748) (xy -0.127 -1.651) (xy -0.1778 -1.6764) (xy -0.2032 -1.7272) (xy -0.254 -1.7526)
+						(xy -0.4064 -1.7526) (xy -0.4064 -1.7272) (xy -0.4572 -1.7018) (xy -0.4826 -1.6256) (xy -0.508 -1.524)
+						(xy -0.508 -1.0922) (xy -0.4572 -0.889) (xy -0.4064 -0.8128) (xy -0.254 -0.6604) (xy -0.2032 -0.5842)
+						(xy -0.127 -0.5334) (xy -0.1016 -0.4826) (xy -0.0762 -0.4064) (xy -0.0508 -0.3556) (xy -0.0254 -0.3302)
+						(xy -0.0254 -0.2794) (xy 0 -0.2286) (xy -0.0762 -0.1524) (xy -0.127 -0.127) (xy -0.1524 -0.0762)
+						(xy -0.2032 -0.0508) (xy -0.2286 -0.0254) (xy -0.254 -0.0254) (xy -0.3048 -0.0762) (xy -0.3556 -0.1016)
+						(xy -0.4318 -0.127) (xy -0.4826 -0.1524) (xy -0.5588 -0.2286) (xy -0.6096 -0.254) (xy -0.8382 -0.4826)
+						(xy -0.8128 -0.5588) (xy -0.7874 -0.5842) (xy -0.7874 -0.8636) (xy -0.8128 -0.889) (xy -0.8128 -0.9652)
+						(xy -0.762 -1.016) (xy -0.762 -1.0414) (xy -0.6604 -1.2954) (xy -0.6604 -1.5748) (xy -0.6858 -1.6002)
+						(xy -0.6858 -1.6256) (xy -0.7366 -1.7018) (xy -0.8382 -1.7526) (xy -0.9144 -1.7526) (xy -0.9398 -1.7272)
+						(xy -0.9652 -1.6764) (xy -1.016 -1.6002) (xy -1.0414 -1.524) (xy -1.143 -1.27) (xy -1.2192 -1.0414)
+						(xy -1.27 -0.9652) (xy -1.2954 -0.889) (xy -1.3208 -0.8382) (xy -1.3208 -0.8128) (xy -1.3716 -0.7112)
+						(xy -1.397 -0.5842) (xy -1.397 -0.4826) (xy -1.3716 -0.381) (xy -1.3208 -0.254) (xy -1.2954 -0.2032)
+						(xy -1.1938 -0.0508) (xy -1.0414 0.1524) (xy -0.9906 0.2032) (xy -0.9652 0.254) (xy -0.9144 0.3302)
+						(xy -0.889 0.381) (xy -0.8636 0.381) (xy -0.8128 0.508) (xy -0.6096 0.7112) (xy -0.5334 0.7366)
+						(xy -0.508 0.762) (xy -0.4318 0.762) (xy -0.3556 0.7874) (xy -0.2286 0.8128) (xy -0.1016 0.8128)
+						(xy 0.0508 0.8382) (xy 0.2032 0.8382) (xy 0.3048 0.8636) (xy 0.4826 0.8636) (xy 0.5334 0.889)
+						(xy 0.5842 0.889) (xy 0.6858 0.9398) (xy 0.7112 0.9652) (xy 0.762 0.9906) (xy 0.8128 1.0414) (xy 0.8636 1.0668)
+						(xy 0.889 1.1176) (xy 0.9144 1.143) (xy 0.9144 1.1938) (xy 0.889 1.2192) (xy 0.8636 1.27) (xy 0.8128 1.3462)
+						(xy 0.7112 1.5494) (xy 0.635 1.651) (xy 0.5842 1.7526) (xy 0.508 1.8796) (xy 0.4572 1.9558) (xy 0.381 2.0828)
+						(xy 0.3048 2.1844) (xy 0.254 2.286) (xy 0.2032 2.3622) (xy 0.1778 2.4384) (xy 0.1016 2.5146) (xy 0.1016 2.54)
+						(xy 0.0762 2.5654) (xy 0.0762 2.5908) (xy 0.0254 2.5908) (xy 0.0254 2.5654) (xy -0.0254 2.5146)
+						(xy -0.1016 2.3622) (xy -0.254 2.1336) (xy -0.3048 2.032) (xy -0.4572 1.778) (xy -0.5588 1.6256)
+						(xy -0.762 1.27) (xy -0.889 1.0668) (xy -1.016 0.8382) (xy -1.1684 0.6096) (xy -1.3208 0.3302)
+						(xy -1.397 0.2032) (xy -1.524 -0.0254) (xy -1.778 -0.4318) (xy -1.8796 -0.635) (xy -2.0066 -0.8128)
+						(xy -2.1082 -0.9906) (xy -2.2098 -1.143) (xy -2.286 -1.2954) (xy -2.4384 -1.5494) (xy -2.4892 -1.651)
+						(xy -2.5654 -1.7526) (xy -2.5908 -1.8288) (xy -2.6162 -1.8796) (xy -2.6416 -1.905) (xy -2.6416 -1.9304)
+						(xy 2.7432 -1.9304) (xy 2.7432 -1.905)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 129.54 110.49) (xy 129.54 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26ef0b67-d041-4144-b442-d4a594833062")
+	)
+	(wire
+		(pts
+			(xy 111.76 91.44) (xy 119.38 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2aeb506a-b903-4350-80d0-20da949b9a8e")
+	)
+	(wire
+		(pts
+			(xy 111.76 99.06) (xy 119.38 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "446cd0d5-6a32-497a-a0c0-ee547e063e47")
+	)
+	(wire
+		(pts
+			(xy 139.7 83.82) (xy 147.32 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4da6a962-20d3-48a1-9d5a-01254b30a44e")
+	)
+	(wire
+		(pts
+			(xy 111.76 83.82) (xy 119.38 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5609763b-28b7-403b-8413-3f178877f711")
+	)
+	(wire
+		(pts
+			(xy 111.76 76.2) (xy 119.38 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6021566d-f769-44c6-a946-e91b45e69bb0")
+	)
+	(wire
+		(pts
+			(xy 139.7 91.44) (xy 147.32 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68ba7e13-70a0-464a-a047-726b48e5e9d6")
+	)
+	(wire
+		(pts
+			(xy 139.7 99.06) (xy 147.32 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c13f32ef-9b2e-4abc-9b46-cb38c56731a4")
+	)
+	(wire
+		(pts
+			(xy 139.7 76.2) (xy 147.32 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4f997cc-0d2c-4785-a8c0-9e182665f4b9")
+	)
+	(label "GREEN-"
+		(at 139.7 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "27ca6269-4ed5-4efd-8a32-46b374aacf1e")
+	)
+	(label "RED+"
+		(at 111.76 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "50db4563-ff71-4f6c-b862-cdebfa5079b5")
+	)
+	(label "CY+"
+		(at 111.76 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7cec566c-e6cd-4d18-983f-c6810671ea64")
+	)
+	(label "BLUE+"
+		(at 111.76 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7d734e10-2fd4-4770-b9d5-099f89859ca1")
+	)
+	(label "BLUE-"
+		(at 139.7 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "986d15d0-ec3d-426a-a4e1-a1543afa6ba5")
+	)
+	(label "CY-"
+		(at 139.7 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a65c800d-4aaf-4b40-9f26-7288c6df2f06")
+	)
+	(label "RED-"
+		(at 139.7 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c75a3d3e-3b27-4c5f-b94f-fed5707054a9")
+	)
+	(label "GREEN+"
+		(at 111.76 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d3ed93a1-94b2-4edd-880e-6e50f14ddd54")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 129.54 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "00e8cbdd-a925-46e3-94f5-126e0456668b")
+		(property "Reference" "#PWR01"
+			(at 129.54 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 129.54 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 129.54 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "137f93ef-a14f-4594-b91c-e8dd3d104108")
+		)
+		(instances
+			(project "AstraBeamLED"
+				(path "/86edf83e-a446-464c-ad90-f8d1498e5ef3/751258a0-9fa5-45c2-9781-47b681192240"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 152.4 83.82 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "01886d3f-543b-4882-a0c9-349c936516fa")
+		(property "Reference" "J6"
+			(at 152.4 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 151.765 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm"
+			(at 152.4 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 152.4 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a7e17d48-40fb-4567-8e72-1db1ef93a5cc")
+		)
+		(instances
+			(project "AstraBeamLED"
+				(path "/86edf83e-a446-464c-ad90-f8d1498e5ef3/751258a0-9fa5-45c2-9781-47b681192240"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 152.4 99.06 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2f3490f9-e305-4e56-91cb-b33b7941de82")
+		(property "Reference" "J8"
+			(at 152.4 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 151.765 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm"
+			(at 152.4 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 152.4 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2f432b27-42ca-475d-977d-51536b0fb050")
+		)
+		(instances
+			(project "AstraBeamLED"
+				(path "/86edf83e-a446-464c-ad90-f8d1498e5ef3/751258a0-9fa5-45c2-9781-47b681192240"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 106.68 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2f3ab25d-13d7-4b92-b0d6-a38c29b126f1")
+		(property "Reference" "J2"
+			(at 106.68 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 107.315 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm"
+			(at 106.68 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 106.68 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "22511059-0957-490a-a868-bb2f73bf577b")
+		)
+		(instances
+			(project "AstraBeamLED"
+				(path "/86edf83e-a446-464c-ad90-f8d1498e5ef3/751258a0-9fa5-45c2-9781-47b681192240"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 106.68 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "38de5054-f0db-4737-9073-08b9222e9944")
+		(property "Reference" "J4"
+			(at 106.68 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 107.315 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm"
+			(at 106.68 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 106.68 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "80f9c601-b923-499b-bb1d-5572963147a6")
+		)
+		(instances
+			(project "AstraBeamLED"
+				(path "/86edf83e-a446-464c-ad90-f8d1498e5ef3/751258a0-9fa5-45c2-9781-47b681192240"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 106.68 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "898f8a05-485d-4a38-abd0-df7104aa437b")
+		(property "Reference" "J3"
+			(at 106.68 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 107.315 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm"
+			(at 106.68 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 106.68 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "63f8ddb5-c027-4927-b541-6f8a2cef366c")
+		)
+		(instances
+			(project "AstraBeamLED"
+				(path "/86edf83e-a446-464c-ad90-f8d1498e5ef3/751258a0-9fa5-45c2-9781-47b681192240"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 152.4 76.2 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "94595611-1aea-4a19-ab31-a63c6915908f")
+		(property "Reference" "J5"
+			(at 152.4 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 151.765 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm"
+			(at 152.4 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 152.4 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cb86725e-df2f-4809-b339-965ef7b7eeac")
+		)
+		(instances
+			(project "AstraBeamLED"
+				(path "/86edf83e-a446-464c-ad90-f8d1498e5ef3/751258a0-9fa5-45c2-9781-47b681192240"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 152.4 91.44 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cec8e99a-bb42-41d8-a62b-05d653051523")
+		(property "Reference" "J7"
+			(at 152.4 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 151.765 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm"
+			(at 152.4 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 152.4 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c926232f-b68c-4cfe-9b3b-a6efdfb7b9c4")
+		)
+		(instances
+			(project "AstraBeamLED"
+				(path "/86edf83e-a446-464c-ad90-f8d1498e5ef3/751258a0-9fa5-45c2-9781-47b681192240"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 106.68 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e3abb2be-d9bc-4a5a-a854-39c4df4f5530")
+		(property "Reference" "J1"
+			(at 106.68 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 107.315 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm"
+			(at 106.68 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 106.68 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c42009c6-4976-4a7a-86a6-0d594120b805")
+		)
+		(instances
+			(project "AstraBeamLED"
+				(path "/86edf83e-a446-464c-ad90-f8d1498e5ef3/751258a0-9fa5-45c2-9781-47b681192240"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Graphic:SYM_ESD_Small")
+		(at 129.54 127 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e3b3aa24-17dc-4154-85ca-0243c265d50e")
+		(property "Reference" "#SYM1"
+			(at 129.54 123.444 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "SYM_ESD_Small"
+			(at 129.54 130.175 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Symbol:Symbol_ESD-Logo-Text_CopperTop"
+			(at 129.54 126.746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 126.746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "ESD warning/\"Do not touch\" symbol, small"
+			(at 129.54 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "AstraBeamLED"
+				(path "/86edf83e-a446-464c-ad90-f8d1498e5ef3/751258a0-9fa5-45c2-9781-47b681192240"
+					(reference "#SYM1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EASYEDA2KICAD:LED_RGBA_3A_LERTDCYS2WN")
+		(at 129.54 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fcc15ebe-0d3c-4dc3-9a6b-e54a4251ef3c")
+		(property "Reference" "U1"
+			(at 129.54 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LERTDCYS2WN"
+			(at 129.54 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "EASYEDA2KICAD:LED_LERTDCYS2WN"
+			(at 129.54 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://look.ams-osram.com/m/5570f492f84c2084/original/LE-RTDCY-S2WN.pdf"
+			(at 129.54 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Compact lightsource in multi chip SMT technology with glass window on top."
+			(at 129.54 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2899869"
+			(at 129.54 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Extra Value" "RGBA"
+			(at 129.54 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "e98c6a23-9d6f-4185-ba92-3e16bc294ee7")
+		)
+		(pin "2"
+			(uuid "a9b028d7-b350-473a-a94a-732252cf6bed")
+		)
+		(pin "9"
+			(uuid "73de32d3-6360-4328-b772-3515fda59bb2")
+		)
+		(pin "8"
+			(uuid "5ad20d7c-9af9-42c0-a565-97bbb36240f9")
+		)
+		(pin "1"
+			(uuid "6c3d2a15-35d5-4985-a241-ced7cff6b7bc")
+		)
+		(pin "6"
+			(uuid "4b85f52f-ef82-4944-b376-4a0d02c1eb9d")
+		)
+		(pin "7"
+			(uuid "c8c1d0f5-3db8-4ddc-85f9-da2d9cdb6836")
+		)
+		(pin "5"
+			(uuid "69683599-3c7c-464a-adf0-418daf687954")
+		)
+		(pin "3"
+			(uuid "918c365b-8453-49cc-ad1e-889c3ac2b115")
+		)
+		(instances
+			(project "AstraBeamLED"
+				(path "/86edf83e-a446-464c-ad90-f8d1498e5ef3/751258a0-9fa5-45c2-9781-47b681192240"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

@@ -1,0 +1,326 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "86edf83e-a446-464c-ad90-f8d1498e5ef3")
+	(paper "A4")
+	(title_block
+		(title "Cover")
+		(date "2024-11-03")
+		(rev "A")
+		(company "LiveAstra Technologies")
+	)
+	(lib_symbols)
+	(circle
+		(center 22.86 127)
+		(radius 0.7354)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 0 0 0)
+		)
+		(uuid 1c40dd31-8ec5-4a9f-a307-dba89fd1f5fa)
+	)
+	(circle
+		(center 22.86 120.65)
+		(radius 0.807)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 0 0 0)
+		)
+		(uuid 33fb43a3-3269-44bd-aeed-4c171c2b76f6)
+	)
+	(circle
+		(center 22.86 114.3)
+		(radius 0.73)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 0 0 0)
+		)
+		(uuid 4c9f818d-f221-43bf-976b-69bf248cf381)
+	)
+	(circle
+		(center 22.86 158.75)
+		(radius 0.82)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 0 0 0)
+		)
+		(uuid 4cad54e3-b75b-4984-a90f-b59ae64fb235)
+	)
+	(circle
+		(center 22.86 133.35)
+		(radius 0.8135)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 0 0 0)
+		)
+		(uuid 538dbfce-a9f4-4866-a1a2-1d1024b179ce)
+	)
+	(circle
+		(center 22.86 152.4)
+		(radius 0.82)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 0 0 0)
+		)
+		(uuid 54145ebb-a92a-4ecc-a283-735358ab63ad)
+	)
+	(circle
+		(center 22.86 146.05)
+		(radius 0.82)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 0 0 0)
+		)
+		(uuid 5cbef836-85b2-4f0a-9018-ce2187fb6d11)
+	)
+	(circle
+		(center 22.86 101.6)
+		(radius 0.6306)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 0 0 0)
+		)
+		(uuid 6489d426-0eba-4d86-ae5f-3c1a1c32964e)
+	)
+	(rectangle
+		(start 182.88 35.56)
+		(end 281.94 134.62)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6952a11f-b2ff-460c-8247-e1b8ea5d8fbb)
+	)
+	(circle
+		(center 22.86 107.95)
+		(radius 0.6696)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 0 0 0)
+		)
+		(uuid 9821aca2-b596-4fd0-a80e-cef3830cd378)
+	)
+	(circle
+		(center 22.86 139.7)
+		(radius 0.7409)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 0 0 0)
+		)
+		(uuid ace80f73-d090-4190-8030-ad0d0b237042)
+	)
+	(circle
+		(center 22.86 88.9)
+		(radius 0.6351)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 0 0 0)
+		)
+		(uuid af2dc0eb-1cfa-4b29-be88-117d2e5ac8aa)
+	)
+	(circle
+		(center 22.86 165.1)
+		(radius 0.82)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 0 0 0)
+		)
+		(uuid b8d09ad2-12ab-4d31-954d-e749e339d096)
+	)
+	(circle
+		(center 22.86 95.25)
+		(radius 0.6174)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 0 0 0)
+		)
+		(uuid d81e4ae2-a1a6-4151-94a3-6034b3a64480)
+	)
+	(text "Features"
+		(exclude_from_sim no)
+		(at 20.32 82.55 0)
+		(effects
+			(font
+				(face "ING Me")
+				(size 4 4)
+				(thickness 0.8)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "305281ff-ef68-408b-be94-ad012a492b26")
+	)
+	(text "OSRAM OSTAR® Stage Light PCB\nLE RTDUW S2WN\n\nHigh Power 40W RGBCY LED PCB with direct heatsink copper base."
+		(exclude_from_sim no)
+		(at 20.32 64.77 0)
+		(effects
+			(font
+				(face "ING Me")
+				(size 3 3)
+			)
+			(justify left)
+		)
+		(uuid "882ecbee-e71b-40d1-a8fb-eec22a96fb00")
+	)
+	(text "AstraBeam LED"
+		(exclude_from_sim no)
+		(at 20.32 26.67 0)
+		(effects
+			(font
+				(face "ING Me Headline")
+				(size 8 8)
+				(thickness 1.6)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "9778da6f-6ba6-4894-92d7-eb4161050173")
+	)
+	(text "[TBD] Special connectors"
+		(exclude_from_sim no)
+		(at 25.4 90.17 0)
+		(effects
+			(font
+				(face "ING Me")
+				(size 3 3)
+			)
+			(justify left)
+		)
+		(uuid "a263e062-89f0-4f47-963a-9322562afed9")
+	)
+	(text "Render for reference only"
+		(exclude_from_sim no)
+		(at 229.87 138.43 0)
+		(effects
+			(font
+				(face "ING Me")
+				(size 3 3)
+			)
+		)
+		(uuid "b67ccf6b-236e-4187-8e37-9fa2c7760198")
+	)
+	(text "In review"
+		(exclude_from_sim no)
+		(at 31.75 41.91 0)
+		(effects
+			(font
+				(face "ING Me")
+				(size 4.064 4.064)
+			)
+		)
+		(uuid "da419680-bd4a-4541-a367-9c49a0aeb355")
+	)
+	(text "23 June 2024"
+		(exclude_from_sim no)
+		(at 233.77 26.27 0)
+		(effects
+			(font
+				(face "ING Me")
+				(size 5 5)
+				(color 255 255 255 1)
+			)
+			(justify left)
+		)
+		(uuid "e622739e-67c3-467e-8e51-9e60aabe351f")
+	)
+	(sheet
+		(at 243.16 146.84)
+		(size 37.51 32.23)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "751258a0-9fa5-45c2-9781-47b681192240")
+		(property "Sheetname" "Schematic"
+			(at 243.16 146.1284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Sheetfile" "schematic.kicad_sch"
+			(at 243.16 179.6546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "AstraBeamLED"
+				(path "/86edf83e-a446-464c-ad90-f8d1498e5ef3"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
