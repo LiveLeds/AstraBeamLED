@@ -119,7 +119,7 @@ outputs:
           holes_color: "@BACKGROUND_COLOR@"
           layers:
             - layer: F.Cu
-            - layer: Heat-sink
+            - layer: Direct.Heatsink
             - layer: Board.Title
               color: "@FOREGROUND_COLOR@"
             - layer: Board.Center

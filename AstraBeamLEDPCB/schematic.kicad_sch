@@ -151,21 +151,21 @@
 				)
 			)
 		)
-		(symbol "LiveAstra:CN_FASTON_250__41290_U"
+		(symbol "LiveAstra:J_1_SolderPad"
 			(pin_numbers hide)
 			(pin_names hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "CN"
-				(at 0 7.62 0)
+			(property "Reference" "J"
+				(at 0 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "250 FASTON"
+			(property "Value" ""
 				(at 0 5.08 0)
 				(effects
 					(font
@@ -174,8 +174,8 @@
 					)
 				)
 			)
-			(property "Footprint" "LiveAstra:CN_FASTON_250__41290_U"
-				(at -1.27 0 0)
+			(property "Footprint" "LiveAstra:SolderWirePad_1x01_SMD_5x10mm"
+				(at 0 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -192,7 +192,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ".250 SERIES FASTON TAB U SHAPE"
+			(property "Description" "1 Connection Solder Pad"
 				(at 0 -7.62 0)
 				(effects
 					(font
@@ -201,59 +201,10 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "41290"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MFN" "TE Connectivity"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Extra Values" "U Shape"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 0.762 0.762)
-						(bold yes)
-					)
-				)
-			)
-			(symbol "CN_FASTON_250__41290_U_1_1"
+			(symbol "J_1_SolderPad_1_1"
 				(rectangle
-					(start -1.524 0.254)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -1.524 1.27)
-					(end -1.27 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.524 1.27)
-					(end 0 1.016)
+					(start -0.254 -0.762)
+					(end 0 0.762)
 					(stroke
 						(width 0)
 						(type default)
@@ -920,118 +871,6 @@
 				)
 			)
 		)
-		(symbol "LiveAstra:MountingHole_Pad"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim yes)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "H"
-				(at 0 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MountingHole_Pad"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "MountingHole:MountingHole_5.3mm_M5_DIN965_Pad"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 -8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Mounting Hole with connection"
-				(at 0 -11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Extra Values" "Mouting Hole"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 0.762 0.762)
-						(bold yes)
-					)
-				)
-			)
-			(property "ki_keywords" "mounting hole"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*Pad*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MountingHole_Pad_0_1"
-				(circle
-					(center 0 1.27)
-					(radius 1.27)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "MountingHole_Pad_1_1"
-				(pin input line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -1534,113 +1373,34 @@
 		)
 	)
 	(symbol
-		(lib_id "LiveAstra:MountingHole_Pad")
-		(at 73.66 53.34 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1f00b999-28b3-4df1-bcbc-811e2dd5caa1")
-		(property "Reference" "H1"
-			(at 76.2 50.7999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 73.66 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_5.3mm_M5_DIN965_Pad"
-			(at 73.66 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 73.66 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 73.66 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Extra Values" "Mouting Hole"
-			(at 76.2 53.3399 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-					(bold yes)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "a3d414df-694b-441a-9d22-4d519ea7defb")
-		)
-		(instances
-			(project ""
-				(path "/86edf83e-a446-464c-ad90-f8d1498e5ef3/751258a0-9fa5-45c2-9781-47b681192240"
-					(reference "H1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LiveAstra:CN_FASTON_250__41290_U")
-		(at 203.2 86.36 180)
+		(lib_id "LiveAstra:J_1_SolderPad")
+		(at 101.6 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "22173ba3-07be-4059-8be4-df07bf3ecb87")
-		(property "Reference" "CN6"
-			(at 205.74 84.4549 0)
+		(uuid "0995585c-e93f-4ba5-b04f-57e1c4ae1ff4")
+		(property "Reference" "J3"
+			(at 101.473 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "250 FASTON"
-			(at 205.74 86.995 0)
+		(property "Value" "~"
+			(at 101.473 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(bold yes)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "LiveAstra:CN_FASTON_250__41290_U"
-			(at 204.47 86.36 0)
+		(property "Footprint" "LiveAstra:SolderWirePad_1x01_SMD_5x10mm"
+			(at 101.6 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1649,7 +1409,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.te.com/en/product-41290.html"
-			(at 203.2 76.2 0)
+			(at 101.6 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1657,57 +1417,29 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ".250 SERIES FASTON TAB U SHAPE"
-			(at 203.2 78.74 0)
+		(property "Description" "1 Connection Solder Pad"
+			(at 101.6 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "MPN" "41290"
-			(at 203.2 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFN" "TE Connectivity"
-			(at 203.2 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Extra Values" "U Shape"
-			(at 205.74 89.5349 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-					(bold yes)
-				)
-				(justify right)
 			)
 		)
 		(pin "1"
-			(uuid "8e2eefeb-5708-4812-a01a-a92878393c04")
+			(uuid "cba46d82-dbfc-4a3c-ad21-fbf79e9c20b8")
 		)
 		(instances
 			(project "AstraBeamLED"
 				(path "/86edf83e-a446-464c-ad90-f8d1498e5ef3/751258a0-9fa5-45c2-9781-47b681192240"
-					(reference "CN6")
+					(reference "J3")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "LiveAstra:CN_FASTON_250__41290_U")
+		(lib_id "LiveAstra:J_1_SolderPad")
 		(at 203.2 73.66 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1715,9 +1447,9 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2ffa9ef7-52ed-4933-830f-d3a614683096")
-		(property "Reference" "CN5"
-			(at 205.74 71.7549 0)
+		(uuid "2287610c-1495-4886-99fa-a366133a3325")
+		(property "Reference" "J5"
+			(at 204.47 73.0249 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1725,8 +1457,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "250 FASTON"
-			(at 205.74 74.295 0)
+		(property "Value" "~"
+			(at 204.47 74.9299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1735,8 +1467,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LiveAstra:CN_FASTON_250__41290_U"
-			(at 204.47 73.66 0)
+		(property "Footprint" "LiveAstra:SolderWirePad_1x01_SMD_5x10mm"
+			(at 203.2 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1753,7 +1485,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ".250 SERIES FASTON TAB U SHAPE"
+		(property "Description" "1 Connection Solder Pad"
 			(at 203.2 66.04 0)
 			(effects
 				(font
@@ -1762,74 +1494,49 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "41290"
-			(at 203.2 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFN" "TE Connectivity"
-			(at 203.2 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Extra Values" "U Shape"
-			(at 205.74 76.8349 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-					(bold yes)
-				)
-				(justify right)
-			)
-		)
 		(pin "1"
-			(uuid "94310edc-3efa-4c59-ae89-c4b6074a4b54")
+			(uuid "0c7f1681-6ed8-48dd-975d-e9fd47d14b91")
 		)
 		(instances
-			(project ""
+			(project "AstraBeamLED"
 				(path "/86edf83e-a446-464c-ad90-f8d1498e5ef3/751258a0-9fa5-45c2-9781-47b681192240"
-					(reference "CN5")
+					(reference "J5")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "LiveAstra:CN_FASTON_250__41290_U")
-		(at 101.6 116.84 0)
+		(lib_id "LiveAstra:J_1_SolderPad")
+		(at 203.2 116.84 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "42487221-2918-4750-a468-81a18ee4af1c")
-		(property "Reference" "CN4"
-			(at 100.838 107.95 0)
+		(uuid "262b7c70-f215-4680-b7a3-1705f9dc8b5b")
+		(property "Reference" "J8"
+			(at 204.47 116.2049 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "250 FASTON"
-			(at 100.838 110.49 0)
+		(property "Value" "~"
+			(at 204.47 118.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(bold yes)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "LiveAstra:CN_FASTON_250__41290_U"
-			(at 100.33 116.84 0)
+		(property "Footprint" "LiveAstra:SolderWirePad_1x01_SMD_5x10mm"
+			(at 203.2 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1838,7 +1545,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.te.com/en/product-41290.html"
-			(at 101.6 127 0)
+			(at 203.2 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1846,56 +1553,29 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ".250 SERIES FASTON TAB U SHAPE"
-			(at 101.6 124.46 0)
+		(property "Description" "1 Connection Solder Pad"
+			(at 203.2 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "MPN" "41290"
-			(at 101.6 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFN" "TE Connectivity"
-			(at 101.6 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Extra Values" "U Shape"
-			(at 100.838 113.03 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-					(bold yes)
-				)
 			)
 		)
 		(pin "1"
-			(uuid "5a74c86c-705b-4917-ace1-54dfaa814481")
+			(uuid "fa219b7f-b4c3-4163-ada8-fb433e1f02bb")
 		)
 		(instances
 			(project "AstraBeamLED"
 				(path "/86edf83e-a446-464c-ad90-f8d1498e5ef3/751258a0-9fa5-45c2-9781-47b681192240"
-					(reference "CN4")
+					(reference "J8")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "LiveAstra:CN_FASTON_250__41290_U")
+		(lib_id "LiveAstra:J_1_SolderPad")
 		(at 101.6 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1903,25 +1583,26 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6ffe99b2-d428-49a7-aa22-3eac75135c2b")
-		(property "Reference" "CN1"
-			(at 100.838 64.77 0)
+		(uuid "566bbe52-21cb-4187-8934-8c7b562ddd5f")
+		(property "Reference" "J1"
+			(at 101.473 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "250 FASTON"
-			(at 100.838 67.31 0)
+		(property "Value" "~"
+			(at 101.473 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(bold yes)
 				)
 			)
 		)
-		(property "Footprint" "LiveAstra:CN_FASTON_250__41290_U"
-			(at 100.33 73.66 0)
+		(property "Footprint" "LiveAstra:SolderWirePad_1x01_SMD_5x10mm"
+			(at 101.6 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1938,7 +1619,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ".250 SERIES FASTON TAB U SHAPE"
+		(property "Description" "1 Connection Solder Pad"
 			(at 101.6 81.28 0)
 			(effects
 				(font
@@ -1947,72 +1628,49 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "41290"
-			(at 101.6 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFN" "TE Connectivity"
-			(at 101.6 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Extra Values" "U Shape"
-			(at 100.838 69.85 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-					(bold yes)
-				)
-			)
-		)
 		(pin "1"
-			(uuid "d25a4534-7ecc-49e7-9aaa-0fd3024e6d7c")
+			(uuid "3e2dbfa3-63f4-4d88-bc4b-c4368cab213a")
 		)
 		(instances
 			(project ""
 				(path "/86edf83e-a446-464c-ad90-f8d1498e5ef3/751258a0-9fa5-45c2-9781-47b681192240"
-					(reference "CN1")
+					(reference "J1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "LiveAstra:CN_FASTON_250__41290_U")
-		(at 101.6 86.36 0)
+		(lib_id "LiveAstra:J_1_SolderPad")
+		(at 203.2 104.14 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "77a42b3b-0eec-45a9-9b3f-d267deddcaa8")
-		(property "Reference" "CN2"
-			(at 100.838 77.47 0)
+		(fields_autoplaced yes)
+		(uuid "6db4fe76-d9dd-443d-8bd4-6b29a9901285")
+		(property "Reference" "J7"
+			(at 204.47 103.5049 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "250 FASTON"
-			(at 100.838 80.01 0)
+		(property "Value" "~"
+			(at 204.47 105.4099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(bold yes)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "LiveAstra:CN_FASTON_250__41290_U"
-			(at 100.33 86.36 0)
+		(property "Footprint" "LiveAstra:SolderWirePad_1x01_SMD_5x10mm"
+			(at 203.2 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2021,7 +1679,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.te.com/en/product-41290.html"
-			(at 101.6 96.52 0)
+			(at 203.2 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2029,49 +1687,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ".250 SERIES FASTON TAB U SHAPE"
-			(at 101.6 93.98 0)
+		(property "Description" "1 Connection Solder Pad"
+			(at 203.2 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "MPN" "41290"
-			(at 101.6 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFN" "TE Connectivity"
-			(at 101.6 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Extra Values" "U Shape"
-			(at 100.838 82.55 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-					(bold yes)
-				)
 			)
 		)
 		(pin "1"
-			(uuid "63f2147f-91e3-4447-b14c-f50ca6c502e5")
+			(uuid "b7d7d9ba-4420-4275-95b0-e7154e58d358")
 		)
 		(instances
 			(project "AstraBeamLED"
 				(path "/86edf83e-a446-464c-ad90-f8d1498e5ef3/751258a0-9fa5-45c2-9781-47b681192240"
-					(reference "CN2")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -2204,33 +1835,34 @@
 		)
 	)
 	(symbol
-		(lib_id "LiveAstra:CN_FASTON_250__41290_U")
-		(at 101.6 104.14 0)
+		(lib_id "LiveAstra:J_1_SolderPad")
+		(at 101.6 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "dded1289-47da-4fd0-ad7c-27c8bf5ed3bc")
-		(property "Reference" "CN3"
-			(at 100.838 95.25 0)
+		(uuid "c067bb07-b579-444c-9ad2-f2223286235a")
+		(property "Reference" "J2"
+			(at 101.473 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "250 FASTON"
-			(at 100.838 97.79 0)
+		(property "Value" "~"
+			(at 101.473 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(bold yes)
 				)
 			)
 		)
-		(property "Footprint" "LiveAstra:CN_FASTON_250__41290_U"
-			(at 100.33 104.14 0)
+		(property "Footprint" "LiveAstra:SolderWirePad_1x01_SMD_5x10mm"
+			(at 101.6 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2239,7 +1871,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.te.com/en/product-41290.html"
-			(at 101.6 114.3 0)
+			(at 101.6 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2247,49 +1879,156 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ".250 SERIES FASTON TAB U SHAPE"
-			(at 101.6 111.76 0)
+		(property "Description" "1 Connection Solder Pad"
+			(at 101.6 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "MPN" "41290"
-			(at 101.6 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFN" "TE Connectivity"
-			(at 101.6 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Extra Values" "U Shape"
-			(at 100.838 100.33 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-					(bold yes)
-				)
 			)
 		)
 		(pin "1"
-			(uuid "6d2c0611-b7df-4c79-851f-50a3b075097a")
+			(uuid "2d3717e3-904a-4fc5-8993-501b13e2dac0")
 		)
 		(instances
 			(project "AstraBeamLED"
 				(path "/86edf83e-a446-464c-ad90-f8d1498e5ef3/751258a0-9fa5-45c2-9781-47b681192240"
-					(reference "CN3")
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LiveAstra:J_1_SolderPad")
+		(at 101.6 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3a50c53-67ff-4077-a20f-aad75348c94e")
+		(property "Reference" "J4"
+			(at 101.473 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 101.473 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "LiveAstra:SolderWirePad_1x01_SMD_5x10mm"
+			(at 101.6 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.te.com/en/product-41290.html"
+			(at 101.6 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1 Connection Solder Pad"
+			(at 101.6 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bea23b68-b676-4b98-8714-4ba83a0ca18d")
+		)
+		(instances
+			(project "AstraBeamLED"
+				(path "/86edf83e-a446-464c-ad90-f8d1498e5ef3/751258a0-9fa5-45c2-9781-47b681192240"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LiveAstra:J_1_SolderPad")
+		(at 203.2 86.36 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e21b7fe4-40fe-4e49-aa0f-4c032f94ac46")
+		(property "Reference" "J6"
+			(at 204.47 85.7249 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 204.47 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LiveAstra:SolderWirePad_1x01_SMD_5x10mm"
+			(at 203.2 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.te.com/en/product-41290.html"
+			(at 203.2 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1 Connection Solder Pad"
+			(at 203.2 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c5d7b551-004e-4151-a291-cc70eb0ce214")
+		)
+		(instances
+			(project "AstraBeamLED"
+				(path "/86edf83e-a446-464c-ad90-f8d1498e5ef3/751258a0-9fa5-45c2-9781-47b681192240"
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -2354,198 +2093,6 @@
 			(project "AstraBeamLED"
 				(path "/86edf83e-a446-464c-ad90-f8d1498e5ef3/751258a0-9fa5-45c2-9781-47b681192240"
 					(reference "#SYM1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LiveAstra:CN_FASTON_250__41290_U")
-		(at 203.2 116.84 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e7367b27-5628-4acf-9a96-d04411b882c4")
-		(property "Reference" "CN8"
-			(at 205.74 114.9349 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "250 FASTON"
-			(at 205.74 117.475 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(bold yes)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LiveAstra:CN_FASTON_250__41290_U"
-			(at 204.47 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.te.com/en/product-41290.html"
-			(at 203.2 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ".250 SERIES FASTON TAB U SHAPE"
-			(at 203.2 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "41290"
-			(at 203.2 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFN" "TE Connectivity"
-			(at 203.2 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Extra Values" "U Shape"
-			(at 205.74 120.0149 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-					(bold yes)
-				)
-				(justify right)
-			)
-		)
-		(pin "1"
-			(uuid "f83c4177-b158-4eca-876c-34298a38038f")
-		)
-		(instances
-			(project "AstraBeamLED"
-				(path "/86edf83e-a446-464c-ad90-f8d1498e5ef3/751258a0-9fa5-45c2-9781-47b681192240"
-					(reference "CN8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LiveAstra:CN_FASTON_250__41290_U")
-		(at 203.2 104.14 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ff0271c0-3c04-414a-aec6-f285611e0ad5")
-		(property "Reference" "CN7"
-			(at 205.74 102.2349 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "250 FASTON"
-			(at 205.74 104.775 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(bold yes)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LiveAstra:CN_FASTON_250__41290_U"
-			(at 204.47 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.te.com/en/product-41290.html"
-			(at 203.2 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ".250 SERIES FASTON TAB U SHAPE"
-			(at 203.2 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "41290"
-			(at 203.2 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFN" "TE Connectivity"
-			(at 203.2 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Extra Values" "U Shape"
-			(at 205.74 107.3149 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-					(bold yes)
-				)
-				(justify right)
-			)
-		)
-		(pin "1"
-			(uuid "bf559bdd-1056-483d-ac9e-1625846f7e75")
-		)
-		(instances
-			(project "AstraBeamLED"
-				(path "/86edf83e-a446-464c-ad90-f8d1498e5ef3/751258a0-9fa5-45c2-9781-47b681192240"
-					(reference "CN7")
 					(unit 1)
 				)
 			)
