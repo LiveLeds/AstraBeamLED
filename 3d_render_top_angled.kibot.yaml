@@ -61,7 +61,7 @@ outputs:
       point_of_view:
         rotate_x: -15
         rotate_y: 25
-        rotate_z: 90
+        rotate_z: 0
         view: top
       outputs:
         - type: render
