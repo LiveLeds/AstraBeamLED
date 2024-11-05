@@ -3755,6 +3755,21 @@
 			(xy 112.5 89)
 		)
 		(stroke
+			(width 0.5)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Mask")
+		(uuid "8eeef84e-5eed-48ba-878b-9c70706ff2af")
+	)
+	(gr_poly
+		(pts
+			(xy 115 91) (xy 145 91) (xy 146 92) (xy 146 98) (xy 147 98.4) (xy 153 98.4) (xy 154 98) (xy 154 92)
+			(xy 155 91) (xy 185 91) (xy 187.5 89) (xy 187.5 111) (xy 185 109) (xy 155 109) (xy 154 108) (xy 154 102)
+			(xy 153 101.6) (xy 147 101.6) (xy 146 102) (xy 146 108) (xy 145 109) (xy 115 109) (xy 112.5 111)
+			(xy 112.5 89)
+		)
+		(stroke
 			(width 0.1)
 			(type solid)
 		)
@@ -3936,8 +3951,8 @@
 		(uuid "97b83add-f8cf-4c81-aab1-0456a8063804")
 	)
 	(gr_circle
-		(center 180 100)
-		(end 181.75 100)
+		(center 179 100)
+		(end 180.75 100)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -4000,8 +4015,8 @@
 		(uuid "ca17000c-f103-462f-945e-61b5bfe664de")
 	)
 	(gr_circle
-		(center 120 100)
-		(end 121.75 100)
+		(center 121 100)
+		(end 122.75 100)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -4044,7 +4059,7 @@
 	)
 	(gr_circle
 		(center 150 100)
-		(end 180 100)
+		(end 179 100)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -4747,11 +4762,11 @@
 		(layer "User.8")
 		(uuid "649e1e9f-37ab-41e6-8ca1-7d3aa8202a14")
 		(pts
-			(xy 120 100) (xy 150 100)
+			(xy 121 100) (xy 150 100)
 		)
 		(height -5.75)
-		(gr_text "30 mm"
-			(at 135 93.1 0)
+		(gr_text "29 mm"
+			(at 135.5 93.1 0)
 			(layer "User.8")
 			(uuid "649e1e9f-37ab-41e6-8ca1-7d3aa8202a14")
 			(effects
@@ -4910,7 +4925,7 @@
 			(xy 150 100) (xy 153.25 100)
 		)
 		(gr_text "20deg"
-			(at 156.25 100 0)
+			(at 157.2596 98.9904 0)
 			(layer "User.8")
 			(uuid "34a3ad16-ff56-445d-8e9b-7a4ad5a1b3c8")
 			(effects
@@ -5003,11 +5018,11 @@
 		(layer "User.8")
 		(uuid "786ba9ad-430e-422f-8609-e09f0cee427d")
 		(pts
-			(xy 120 100) (xy 120 98.25)
+			(xy 121 100) (xy 121 98.25)
 		)
-		(leader_length 2.571338)
+		(leader_length 2.31491)
 		(gr_text "R 1.75 mm"
-			(at 125 95.678662 0)
+			(at 126 95.93509 0)
 			(layer "User.8")
 			(uuid "786ba9ad-430e-422f-8609-e09f0cee427d")
 			(effects
