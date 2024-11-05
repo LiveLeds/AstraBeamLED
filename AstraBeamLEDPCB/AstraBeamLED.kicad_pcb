@@ -164,6 +164,7 @@
 		(property "Value" "~"
 			(at 0 6.35 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "01ece2a5-a65c-4730-9df3-e01bfb842270")
 			(effects
 				(font
@@ -797,6 +798,7 @@
 		(property "Value" "~"
 			(at 0 6.35 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "21d62c6e-8cc6-427e-90bb-e4f5f47a706b")
 			(effects
 				(font
@@ -915,9 +917,8 @@
 		(uuid "356ca2b1-d1e3-49ec-9caa-b47e1fd271d3")
 		(at 150 100 180)
 		(property "Reference" "D1"
-			(at 0 -4.25 0)
+			(at 0.000444 0.00122 0)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "c7f676b3-5dc3-4ae1-afcf-9252ec1835fc")
 			(effects
 				(font
@@ -929,6 +930,7 @@
 		(property "Value" "LERTDCYS2WN"
 			(at 0 7 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "805f36da-767b-40ce-8278-c77bd557da0e")
 			(effects
 				(font
@@ -1105,17 +1107,6 @@
 			(fill none)
 			(layer "F.Fab")
 			(uuid "c9eaa65a-dfc7-4f0c-ae44-ae9e5b39aa19")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 5 0)
-			(layer "F.Fab")
-			(uuid "609d5099-2327-4705-9fe2-902a1d179e16")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
 		)
 		(dimension
 			(type aligned)
@@ -1751,6 +1742,7 @@
 		(property "Value" "~"
 			(at 0 6.35 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "5981992d-b542-4114-8ed9-0e305d439a0a")
 			(effects
 				(font
@@ -2033,6 +2025,7 @@
 		(property "Value" "~"
 			(at 0 6.35 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "5bab5f3e-23e0-40f9-8978-536b1b544a19")
 			(effects
 				(font
@@ -2305,6 +2298,7 @@
 		(property "Value" "~"
 			(at 0 6.35 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "5b6344fc-3420-4f52-b684-e0bffe80c587")
 			(effects
 				(font
@@ -2866,6 +2860,7 @@
 		(property "Value" "~"
 			(at 0 6.35 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "80d74ff6-2b13-436e-ba7d-5b20dec397dd")
 			(effects
 				(font
@@ -3237,6 +3232,7 @@
 		(property "Value" "~"
 			(at 0 6.35 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "7cdd7666-9585-4da1-ab22-ae63616b2779")
 			(effects
 				(font
@@ -3371,6 +3367,7 @@
 		(property "Value" "~"
 			(at 0 6.35 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "c1f5968e-2083-4986-9df5-e3445f486fee")
 			(effects
 				(font
@@ -4363,16 +4360,15 @@
 		(layer "User.8")
 		(uuid "8d6c41ea-d3b6-4d86-af74-fc0b9051d45f")
 	)
-	(gr_text "REmove this"
-		(at 72.75 44.5 0)
-		(layer "User.8")
-		(uuid "0ee35f4f-68da-42e8-a77e-294b8dee3044")
+	(gr_text "JLCJLCJLCJLC"
+		(at 150 121 0)
+		(layer "F.SilkS")
+		(uuid "5467cb4c-8c93-441f-b3e2-fc7f1f057f23")
 		(effects
 			(font
 				(size 1 1)
 				(thickness 0.15)
 			)
-			(justify left bottom)
 		)
 	)
 	(gr_text "${TITLE}"
@@ -4736,9 +4732,9 @@
 		(pts
 			(xy 150 100) (xy 166.444621 94.014647)
 		)
-		(height -0.631961)
+		(height -0.001298)
 		(gr_text "17.5 mm"
-			(at 157.612845 95.332828 20.00000332)
+			(at 157.828544 95.925457 20.00000332)
 			(layer "User.8")
 			(uuid "469dfeb7-b316-43a6-883f-eb71711900e0")
 			(effects
@@ -4756,7 +4752,7 @@
 			(precision 4) suppress_zeroes)
 		(style
 			(thickness 0.15)
-			(arrow_length 1.27)
+			(arrow_length 0.5)
 			(text_position_mode 0)
 			(extension_height 0.58642)
 			(extension_offset 0.5) keep_text_aligned)
@@ -4788,7 +4784,7 @@
 			(precision 4) suppress_zeroes)
 		(style
 			(thickness 0.15)
-			(arrow_length 1.27)
+			(arrow_length 0.5)
 			(text_position_mode 0)
 			(extension_height 0.58642)
 			(extension_offset 0.5) keep_text_aligned)
@@ -4800,9 +4796,9 @@
 		(pts
 			(xy 178.25 120.75) (xy 180.75 120.75)
 		)
-		(height -5.75)
+		(height -3.75)
 		(gr_text "2.5 mm"
-			(at 179.5 113.85 0)
+			(at 179.5 115 0)
 			(layer "User.8")
 			(uuid "72303b41-20a9-4459-a833-50d49eceac87")
 			(effects
@@ -4820,8 +4816,8 @@
 			(precision 4) suppress_zeroes)
 		(style
 			(thickness 0.15)
-			(arrow_length 1.27)
-			(text_position_mode 0)
+			(arrow_length 0.5)
+			(text_position_mode 2)
 			(extension_height 0.58642)
 			(extension_offset 0.5) keep_text_aligned)
 	)
@@ -4852,7 +4848,7 @@
 			(precision 4) suppress_zeroes)
 		(style
 			(thickness 0.15)
-			(arrow_length 0.4)
+			(arrow_length 0.5)
 			(text_position_mode 0)
 			(extension_height 0.58642)
 			(extension_offset 0.5) keep_text_aligned)
@@ -4916,7 +4912,7 @@
 			(precision 4) suppress_zeroes)
 		(style
 			(thickness 0.15)
-			(arrow_length 1.27)
+			(arrow_length 0.5)
 			(text_position_mode 0)
 			(extension_height 0.58642)
 			(extension_offset 0.5) keep_text_aligned)
@@ -4926,10 +4922,10 @@
 		(layer "User.8")
 		(uuid "34a3ad16-ff56-445d-8e9b-7a4ad5a1b3c8")
 		(pts
-			(xy 150 100) (xy 156 98)
+			(xy 150 100) (xy 153.25 100)
 		)
 		(gr_text "20deg"
-			(at 159.25 98 0)
+			(at 156.25 100 0)
 			(layer "User.8")
 			(uuid "34a3ad16-ff56-445d-8e9b-7a4ad5a1b3c8")
 			(effects
@@ -4949,7 +4945,7 @@
 		)
 		(style
 			(thickness 0.15)
-			(arrow_length 1.27)
+			(arrow_length 0.5)
 			(text_position_mode 0)
 			(text_frame 0)
 			(extension_offset 0.5)
@@ -4964,7 +4960,7 @@
 		)
 		(leader_length 3.81)
 		(gr_text "R 2.5 mm"
-			(at 158.25 75 0)
+			(at 161 75 0)
 			(layer "User.8")
 			(uuid "2b7c1ba4-bbea-478f-8907-9a83bdeba086")
 			(effects
@@ -4982,7 +4978,7 @@
 			(precision 4) suppress_zeroes)
 		(style
 			(thickness 0.15)
-			(arrow_length 1.27)
+			(arrow_length 0.5)
 			(text_position_mode 0)
 			(extension_offset 0.5) keep_text_aligned)
 	)
@@ -5013,7 +5009,7 @@
 			(precision 4) suppress_zeroes)
 		(style
 			(thickness 0.15)
-			(arrow_length 1.27)
+			(arrow_length 0.5)
 			(text_position_mode 0)
 			(extension_offset 0.5) keep_text_aligned)
 	)
@@ -5044,7 +5040,7 @@
 			(precision 4) suppress_zeroes)
 		(style
 			(thickness 0.15)
-			(arrow_length 1.27)
+			(arrow_length 0.5)
 			(text_position_mode 0)
 			(extension_offset 0.5) keep_text_aligned)
 	)
@@ -5057,7 +5053,7 @@
 		)
 		(leader_length 3.81)
 		(gr_text "R 1 mm"
-			(at 138 100 0)
+			(at 138.39 100 0)
 			(layer "User.8")
 			(uuid "7d6d6838-ff2f-472b-ae93-bf72af50e57f")
 			(effects
@@ -5075,9 +5071,9 @@
 			(precision 4) suppress_zeroes)
 		(style
 			(thickness 0.15)
-			(arrow_length 1.27)
+			(arrow_length 0.5)
 			(text_position_mode 0)
-			(extension_offset 0.5) keep_text_aligned)
+			(extension_offset 0.05) keep_text_aligned)
 	)
 	(dimension
 		(type radial)
@@ -5106,7 +5102,7 @@
 			(precision 4) suppress_zeroes)
 		(style
 			(thickness 0.15)
-			(arrow_length 1.27)
+			(arrow_length 0.5)
 			(text_position_mode 0)
 			(extension_offset 0.5) keep_text_aligned)
 	)
@@ -5137,7 +5133,7 @@
 			(precision 4) suppress_zeroes)
 		(style
 			(thickness 0.15)
-			(arrow_length 1.27)
+			(arrow_length 0.5)
 			(text_position_mode 0)
 			(extension_offset 0.5) keep_text_aligned)
 	)
