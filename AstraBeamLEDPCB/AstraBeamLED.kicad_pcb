@@ -3885,6 +3885,59 @@
 			(type solid)
 		)
 		(fill solid)
+		(layer "F.Mask")
+		(uuid "67f2b47f-a237-4ad7-8b96-4d4e28db797e")
+	)
+	(gr_poly
+		(pts
+			(arc
+				(start 145 109)
+				(mid 145.707107 108.707107)
+				(end 146 108)
+			)
+			(arc
+				(start 146 102.62)
+				(mid 146.292893 101.912893)
+				(end 147 101.62)
+			)
+			(arc
+				(start 153 101.62)
+				(mid 153.707107 101.912893)
+				(end 154 102.62)
+			)
+			(arc
+				(start 154 108)
+				(mid 154.292893 108.707107)
+				(end 155 109)
+			)
+			(xy 187.5 109) (xy 187.5 91)
+			(arc
+				(start 155 91)
+				(mid 154.292893 91.292893)
+				(end 154 92)
+			)
+			(arc
+				(start 154 97.38)
+				(mid 153.707107 98.087107)
+				(end 153 98.38)
+			)
+			(arc
+				(start 147 98.38)
+				(mid 146.292893 98.087107)
+				(end 146 97.38)
+			)
+			(arc
+				(start 146 92)
+				(mid 145.707107 91.292893)
+				(end 145 91)
+			)
+			(xy 112.5 91) (xy 112.5 109)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
 		(layer "Eco1.User")
 		(uuid "b4391cfb-50d0-4eaf-8e48-1d688c8425c8")
 	)
