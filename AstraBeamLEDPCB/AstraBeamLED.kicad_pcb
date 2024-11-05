@@ -64,7 +64,7 @@
 			)
 			(layer "dielectric 1"
 				(type "core")
-				(color "FR4 natural")
+				(color "#CC6600FF")
 				(thickness 1.5162)
 				(material "FR4")
 				(epsilon_r 4.4)
@@ -3837,33 +3837,56 @@
 	)
 	(gr_poly
 		(pts
-			(xy 115 91) (xy 145 91) (xy 146 92) (xy 146 98) (xy 147 98.38) (xy 153 98.38) (xy 154 98) (xy 154 92)
-			(xy 155 91) (xy 185 91) (xy 187.5 89) (xy 187.5 111) (xy 185 109) (xy 155 109) (xy 154 108) (xy 154 102)
-			(xy 153 101.62) (xy 147 101.62) (xy 146 102) (xy 146 108) (xy 145 109) (xy 115 109) (xy 112.5 111)
-			(xy 112.5 89)
+			(arc
+				(start 145 109)
+				(mid 145.707107 108.707107)
+				(end 146 108)
+			)
+			(arc
+				(start 146 102.62)
+				(mid 146.292893 101.912893)
+				(end 147 101.62)
+			)
+			(arc
+				(start 153 101.62)
+				(mid 153.707107 101.912893)
+				(end 154 102.62)
+			)
+			(arc
+				(start 154 108)
+				(mid 154.292893 108.707107)
+				(end 155 109)
+			)
+			(xy 187.5 109) (xy 187.5 91)
+			(arc
+				(start 155 91)
+				(mid 154.292893 91.292893)
+				(end 154 92)
+			)
+			(arc
+				(start 154 97.38)
+				(mid 153.707107 98.087107)
+				(end 153 98.38)
+			)
+			(arc
+				(start 147 98.38)
+				(mid 146.292893 98.087107)
+				(end 146 97.38)
+			)
+			(arc
+				(start 146 92)
+				(mid 145.707107 91.292893)
+				(end 145 91)
+			)
+			(xy 112.5 91) (xy 112.5 109)
 		)
 		(stroke
-			(width 0.01)
-			(type solid)
-		)
-		(fill solid)
-		(layer "F.Mask")
-		(uuid "ab6110fe-a3d1-4f0f-ab8d-5034c6f5353e")
-	)
-	(gr_poly
-		(pts
-			(xy 115 91) (xy 145 91) (xy 146 92) (xy 146 98) (xy 147 98.38) (xy 153 98.38) (xy 154 98) (xy 154 92)
-			(xy 155 91) (xy 185 91) (xy 187.5 89) (xy 187.5 111) (xy 185 109) (xy 155 109) (xy 154 108) (xy 154 102)
-			(xy 153 101.62) (xy 147 101.62) (xy 146 102) (xy 146 108) (xy 145 109) (xy 115 109) (xy 112.5 111)
-			(xy 112.5 89)
-		)
-		(stroke
-			(width 0.01)
+			(width 0)
 			(type solid)
 		)
 		(fill solid)
 		(layer "Eco1.User")
-		(uuid "d4c8d83b-c2bc-4059-88e0-e280b82809cd")
+		(uuid "b4391cfb-50d0-4eaf-8e48-1d688c8425c8")
 	)
 	(gr_line
 		(start 185 72.5)
