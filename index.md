@@ -10,8 +10,39 @@ LE RTDUW S2WN
 
 High Power 40W RGBCY LED PCB with direct heatsink copper base.
 
+### Production Details
 
-[![CI](https://github.com/LiveLeds/AstraBeamLED/actions/workflows/ci.yml/badge.svg)](https://github.com/LiveLeds/AstraBeamLED/actions/workflows/ci.yml)
+The PCB went into production on **April 9, 2025**.
+
+- **Git Tag:** `production-2025.04.09`
+
+### Received Product
+
+![PCB Front]({{ "/images/pcb_front.jpg" | relative_url | append: cacheBust }}){: width="600" }
+![PCB Back]({{ "/images/pcb_back.jpg" | relative_url | append: cacheBust }}){: width="600" }
+
+### Identified Issues
+
+1. **Reversed Labels:**  
+  The labels for the pins were reversed (1,2,3,4 → 4,3,2,1 for both rows). This occurred because the OSRAM OSTAR LE RTDCY S2WN datasheet specifies pin numbers in the dimensional drawing as if viewed from the flipped side of the chip, rather than the standard convention used in most footprints.  
+  - This only affects the labeling; the functionality of the PCB remains intact. For example, `RED-` is actually `BLUE+`, etc.  
+  - The issue has been corrected in the next git commit.
+
+1. **Manufacturer Query:**  
+  JLCPCB was unable to determine the dimensions of the direct heatsink and inquired whether to proceed without it.  
+  A response was sent via email, directing them to the file `AstraBeamLED-Direct_Heatsink.gbr` included in the zip, along with an image specifying the exact dimensions.
+
+### Additional Notes
+
+- The edges of the direct heatsink are slightly rounder than expected, with a radius of approximately 1–2 mm.  
+- The board is notably heavy, which is advantageous for heat dissipation.  
+- Soldering was performed using 138°C solder paste and a hotplate, successfully attaching an LED without any issues.
+
+### Continuous Integration and Repository Status
+
+[![CI](https://github.com/LiveLeds/AstraBeamLED/actions/workflows/ci.yml/badge.svg)](https://github.com/LiveLeds/AstraBeamLED/actions/workflows/ci.yml)  
+[![GitHub Last Commit](https://img.shields.io/github/last-commit/liveleds/AstraBeamLED?link=https%3A%2F%2Fgithub.com%2FLiveLeds%AstraBeamLED)](https://github.com/LiveLeds/AstraBeamLED)
+
 ## Table of contents
 
 - [Table of contents](#table-of-contents)
