@@ -11,110 +11,6 @@
 		(company "LiveAstra Technologies")
 	)
 	(lib_symbols)
-	(circle
-		(center 22.86 127)
-		(radius 0.7354)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type color)
-			(color 0 0 0 0)
-		)
-		(uuid 1c40dd31-8ec5-4a9f-a307-dba89fd1f5fa)
-	)
-	(circle
-		(center 22.86 120.65)
-		(radius 0.807)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type color)
-			(color 0 0 0 0)
-		)
-		(uuid 33fb43a3-3269-44bd-aeed-4c171c2b76f6)
-	)
-	(circle
-		(center 22.86 114.3)
-		(radius 0.73)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type color)
-			(color 0 0 0 0)
-		)
-		(uuid 4c9f818d-f221-43bf-976b-69bf248cf381)
-	)
-	(circle
-		(center 22.86 158.75)
-		(radius 0.82)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type color)
-			(color 0 0 0 0)
-		)
-		(uuid 4cad54e3-b75b-4984-a90f-b59ae64fb235)
-	)
-	(circle
-		(center 22.86 133.35)
-		(radius 0.8135)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type color)
-			(color 0 0 0 0)
-		)
-		(uuid 538dbfce-a9f4-4866-a1a2-1d1024b179ce)
-	)
-	(circle
-		(center 22.86 152.4)
-		(radius 0.82)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type color)
-			(color 0 0 0 0)
-		)
-		(uuid 54145ebb-a92a-4ecc-a283-735358ab63ad)
-	)
-	(circle
-		(center 22.86 146.05)
-		(radius 0.82)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type color)
-			(color 0 0 0 0)
-		)
-		(uuid 5cbef836-85b2-4f0a-9018-ce2187fb6d11)
-	)
-	(circle
-		(center 22.86 101.6)
-		(radius 0.6306)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type color)
-			(color 0 0 0 0)
-		)
-		(uuid 6489d426-0eba-4d86-ae5f-3c1a1c32964e)
-	)
 	(rectangle
 		(start 182.88 35.56)
 		(end 281.94 134.62)
@@ -128,32 +24,6 @@
 		(uuid 6952a11f-b2ff-460c-8247-e1b8ea5d8fbb)
 	)
 	(circle
-		(center 22.86 107.95)
-		(radius 0.6696)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type color)
-			(color 0 0 0 0)
-		)
-		(uuid 9821aca2-b596-4fd0-a80e-cef3830cd378)
-	)
-	(circle
-		(center 22.86 139.7)
-		(radius 0.7409)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type color)
-			(color 0 0 0 0)
-		)
-		(uuid ace80f73-d090-4190-8030-ad0d0b237042)
-	)
-	(circle
 		(center 22.86 88.9)
 		(radius 0.6351)
 		(stroke
@@ -165,32 +35,6 @@
 			(color 0 0 0 0)
 		)
 		(uuid af2dc0eb-1cfa-4b29-be88-117d2e5ac8aa)
-	)
-	(circle
-		(center 22.86 165.1)
-		(radius 0.82)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type color)
-			(color 0 0 0 0)
-		)
-		(uuid b8d09ad2-12ab-4d31-954d-e749e339d096)
-	)
-	(circle
-		(center 22.86 95.25)
-		(radius 0.6174)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type color)
-			(color 0 0 0 0)
-		)
-		(uuid d81e4ae2-a1a6-4151-94a3-6034b3a64480)
 	)
 	(text "Features"
 		(exclude_from_sim no)
@@ -232,7 +76,7 @@
 		)
 		(uuid "9778da6f-6ba6-4894-92d7-eb4161050173")
 	)
-	(text "[TBD] Special connectors"
+	(text "Direct-copper heatsink"
 		(exclude_from_sim no)
 		(at 25.4 90.17 0)
 		(effects
@@ -255,7 +99,7 @@
 		)
 		(uuid "b67ccf6b-236e-4187-8e37-9fa2c7760198")
 	)
-	(text "In review"
+	(text "Production"
 		(exclude_from_sim no)
 		(at 31.75 41.91 0)
 		(effects

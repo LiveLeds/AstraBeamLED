@@ -18,15 +18,18 @@ The PCB went into production on **April 9, 2025**.
 
 ### Received Product
 
+##### Front
 ![PCB Front]({{ "/images/pcb_front.jpg" | relative_url | append: cacheBust }}){: width="600" }
+
+##### Back
 ![PCB Back]({{ "/images/pcb_back.jpg" | relative_url | append: cacheBust }}){: width="600" }
 
 ### Identified Issues
 
 1. **Reversed Labels:**  
   The labels for the pins were reversed (1,2,3,4 → 4,3,2,1 for both rows). This occurred because the OSRAM OSTAR LE RTDCY S2WN datasheet specifies pin numbers in the dimensional drawing as if viewed from the flipped side of the chip, rather than the standard convention used in most footprints.  
-  - This only affects the labeling; the functionality of the PCB remains intact. For example, `RED-` is actually `BLUE+`, etc.  
-  - The issue has been corrected in the next git commit.
+  - This only affects the labeling. The functionality of the PCB remains intact. For example, `RED-` is actually `BLUE+`, etc.  
+  - The issue has been corrected.
 
 1. **Manufacturer Query:**  
   JLCPCB was unable to determine the dimensions of the direct heatsink and inquired whether to proceed without it.  

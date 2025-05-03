@@ -1282,7 +1282,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00e8cbdd-a925-46e3-94f5-126e0456668b")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR02"
 			(at 152.4 123.19 0)
 			(effects
 				(font
@@ -1332,7 +1332,7 @@
 		(instances
 			(project "AstraBeamLED"
 				(path "/86edf83e-a446-464c-ad90-f8d1498e5ef3/751258a0-9fa5-45c2-9781-47b681192240"
-					(reference "#PWR01")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -1616,7 +1616,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5eeb1579-e751-4914-981b-d0ab4dfc574e")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR01"
 			(at 152.4 59.69 0)
 			(effects
 				(font
@@ -1666,7 +1666,7 @@
 		(instances
 			(project "AstraBeamLED"
 				(path "/86edf83e-a446-464c-ad90-f8d1498e5ef3/751258a0-9fa5-45c2-9781-47b681192240"
-					(reference "#PWR02")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
